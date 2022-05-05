@@ -1,0 +1,31 @@
+C:\Users\DataBox\source\repos\Try1\Try1\Try1\bin\arm64\Debug\net6.0-windows10.0.19041.0\App.xbf
+C:\Users\DataBox\source\repos\Try1\Try1\Try1\bin\arm64\Debug\net6.0-windows10.0.19041.0\MainWindow.xbf
+C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\Redist\Debug\arm64\ucrtbased.dll
+C:\Users\DataBox\source\repos\Try1\Try1\Try1 (Package)\Images\SplashScreen.scale-200.png
+C:\Users\DataBox\source\repos\Try1\Try1\Try1 (Package)\Images\LockScreenLogo.scale-200.png
+C:\Users\DataBox\source\repos\Try1\Try1\Try1 (Package)\Images\Square150x150Logo.scale-200.png
+C:\Users\DataBox\source\repos\Try1\Try1\Try1 (Package)\Images\Square44x44Logo.scale-200.png
+C:\Users\DataBox\source\repos\Try1\Try1\Try1 (Package)\Images\Square44x44Logo.targetsize-24_altform-unplated.png
+C:\Users\DataBox\source\repos\Try1\Try1\Try1 (Package)\Images\StoreLogo.png
+C:\Users\DataBox\source\repos\Try1\Try1\Try1 (Package)\Images\Wide310x150Logo.scale-200.png
+C:\Users\DataBox\source\repos\Try1\Try1\Try1 (Package)\bin\arm64\Debug\resources.pri
+C:\Users\DataBox\.nuget\packages\microsoft.windowsappsdk\1.0.0\lib\net5.0-windows10.0.18362.0\Microsoft.InteractiveExperiences.Projection.dll
+C:\Users\DataBox\.nuget\packages\microsoft.windowsappsdk\1.0.0\lib\net5.0-windows10.0.18362.0\Microsoft.WinUI.dll
+C:\Users\DataBox\.nuget\packages\microsoft.windowsappsdk\1.0.0\lib\net5.0-windows10.0.18362.0\Microsoft.Windows.AppLifecycle.Projection.dll
+C:\Users\DataBox\.nuget\packages\microsoft.windowsappsdk\1.0.0\lib\net5.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll
+C:\Users\DataBox\.nuget\packages\microsoft.windowsappsdk\1.0.0\lib\net5.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.Resources.Projection.dll
+C:\Users\DataBox\.nuget\packages\microsoft.windowsappsdk\1.0.0\lib\net5.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll
+C:\Users\DataBox\.nuget\packages\microsoft.windowsappsdk\1.0.0\lib\net5.0-windows10.0.18362.0\Microsoft.Windows.System.Power.Projection.dll
+C:\Users\DataBox\.nuget\packages\microsoft.windowsappsdk\1.0.0\lib\net5.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll
+C:\Users\DataBox\.nuget\packages\microsoft.windowsappsdk\1.0.0\runtimes\win10-arm64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll
+C:\Users\DataBox\.nuget\packages\microsoft.windowsappsdk\1.0.0\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll
+C:\Users\DataBox\.nuget\packages\microsoft.windowsappsdk\1.0.0\runtimes\win10-x86\native\Microsoft.WindowsAppRuntime.Bootstrap.dll
+C:\Users\DataBox\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.22\lib\Microsoft.Windows.SDK.NET.dll
+C:\Users\DataBox\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.22\lib\WinRT.Runtime.dll
+C:\Users\DataBox\source\repos\Try1\Try1\Try1\bin\arm64\Debug\net6.0-windows10.0.19041.0\Try1.deps.json
+C:\Users\DataBox\source\repos\Try1\Try1\Try1\obj\arm64\Debug\net6.0-windows10.0.19041.0\App.xbf
+C:\Users\DataBox\source\repos\Try1\Try1\Try1\obj\arm64\Debug\net6.0-windows10.0.19041.0\MainWindow.xbf
+C:\Users\DataBox\source\repos\Try1\Try1\Try1\obj\arm64\Debug\net6.0-windows10.0.19041.0\apphost.exe
+C:\Users\DataBox\source\repos\Try1\Try1\Try1\bin\arm64\Debug\net6.0-windows10.0.19041.0\Try1.runtimeconfig.json
+C:\Users\DataBox\source\repos\Try1\Try1\Try1\bin\arm64\Debug\net6.0-windows10.0.19041.0\Try1.dll
+C:\Users\DataBox\source\repos\Try1\Try1\Try1\bin\arm64\Debug\net6.0-windows10.0.19041.0\Try1.pdb

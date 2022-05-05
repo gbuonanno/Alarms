@@ -1,0 +1,51 @@
+C:\Users\DataBox\source\repos\Try1\Try1\Try1\bin\x64\Debug\net6.0-windows10.0.19041.0\App.xbf
+C:\Users\DataBox\source\repos\Try1\Try1\Try1\bin\x64\Debug\net6.0-windows10.0.19041.0\MainWindow.xbf
+C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\Redist\Debug\x64\ucrtbased.dll
+C:\Users\DataBox\source\repos\Try1\Try1\Try1 (Package)\Images\SplashScreen.scale-200.png
+C:\Users\DataBox\source\repos\Try1\Try1\Try1 (Package)\Images\LockScreenLogo.scale-200.png
+C:\Users\DataBox\source\repos\Try1\Try1\Try1 (Package)\Images\Square150x150Logo.scale-200.png
+C:\Users\DataBox\source\repos\Try1\Try1\Try1 (Package)\Images\Square44x44Logo.scale-200.png
+C:\Users\DataBox\source\repos\Try1\Try1\Try1 (Package)\Images\Square44x44Logo.targetsize-24_altform-unplated.png
+C:\Users\DataBox\source\repos\Try1\Try1\Try1 (Package)\Images\StoreLogo.png
+C:\Users\DataBox\source\repos\Try1\Try1\Try1 (Package)\Images\Wide310x150Logo.scale-200.png
+C:\Users\DataBox\source\repos\Try1\Try1\Try1 (Package)\bin\x64\Debug\resources.pri
+C:\Users\DataBox\.nuget\packages\bouncycastle.netcore\1.8.5\lib\netstandard2.0\BouncyCastle.Crypto.dll
+C:\Users\DataBox\.nuget\packages\google.protobuf\3.19.4\lib\net5.0\Google.Protobuf.dll
+C:\Users\DataBox\.nuget\packages\k4os.compression.lz4\1.2.6\lib\netstandard2.0\K4os.Compression.LZ4.dll
+C:\Users\DataBox\.nuget\packages\k4os.compression.lz4.streams\1.2.6\lib\netstandard2.1\K4os.Compression.LZ4.Streams.dll
+C:\Users\DataBox\.nuget\packages\k4os.hash.xxhash\1.0.6\lib\netstandard2.0\K4os.Hash.xxHash.dll
+C:\Users\DataBox\.nuget\packages\microsoft.win32.systemevents\4.7.0\lib\netstandard2.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\DataBox\.nuget\packages\microsoft.windowsappsdk\1.0.0\lib\net5.0-windows10.0.18362.0\Microsoft.InteractiveExperiences.Projection.dll
+C:\Users\DataBox\.nuget\packages\microsoft.windowsappsdk\1.0.0\lib\net5.0-windows10.0.18362.0\Microsoft.WinUI.dll
+C:\Users\DataBox\.nuget\packages\microsoft.windowsappsdk\1.0.0\lib\net5.0-windows10.0.18362.0\Microsoft.Windows.AppLifecycle.Projection.dll
+C:\Users\DataBox\.nuget\packages\microsoft.windowsappsdk\1.0.0\lib\net5.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll
+C:\Users\DataBox\.nuget\packages\microsoft.windowsappsdk\1.0.0\lib\net5.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.Resources.Projection.dll
+C:\Users\DataBox\.nuget\packages\microsoft.windowsappsdk\1.0.0\lib\net5.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll
+C:\Users\DataBox\.nuget\packages\microsoft.windowsappsdk\1.0.0\lib\net5.0-windows10.0.18362.0\Microsoft.Windows.System.Power.Projection.dll
+C:\Users\DataBox\.nuget\packages\microsoft.windowsappsdk\1.0.0\lib\net5.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll
+C:\Users\DataBox\.nuget\packages\mysql.data\8.0.29\lib\net6.0\MySql.Data.dll
+C:\Users\DataBox\.nuget\packages\mysql.data\8.0.29\lib\net6.0\Ubiety.Dns.Core.dll
+C:\Users\DataBox\.nuget\packages\mysql.data\8.0.29\lib\net6.0\ZstdNet.dll
+C:\Users\DataBox\.nuget\packages\system.configuration.configurationmanager\4.4.1\lib\netstandard2.0\System.Configuration.ConfigurationManager.dll
+C:\Users\DataBox\.nuget\packages\system.drawing.common\4.7.0\lib\netstandard2.0\System.Drawing.Common.dll
+C:\Users\DataBox\.nuget\packages\system.security.cryptography.protecteddata\4.4.0\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\DataBox\.nuget\packages\system.security.permissions\4.7.0\lib\netcoreapp3.0\System.Security.Permissions.dll
+C:\Users\DataBox\.nuget\packages\system.windows.extensions\4.7.0\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\DataBox\.nuget\packages\microsoft.win32.systemevents\4.7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\DataBox\.nuget\packages\microsoft.windowsappsdk\1.0.0\runtimes\win10-arm64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll
+C:\Users\DataBox\.nuget\packages\microsoft.windowsappsdk\1.0.0\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll
+C:\Users\DataBox\.nuget\packages\microsoft.windowsappsdk\1.0.0\runtimes\win10-x86\native\Microsoft.WindowsAppRuntime.Bootstrap.dll
+C:\Users\DataBox\.nuget\packages\system.drawing.common\4.7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\DataBox\.nuget\packages\system.drawing.common\4.7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\DataBox\.nuget\packages\system.security.cryptography.protecteddata\4.4.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\DataBox\.nuget\packages\system.windows.extensions\4.7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\DataBox\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.24\lib\Microsoft.Windows.SDK.NET.dll
+C:\Users\DataBox\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.24\lib\WinRT.Runtime.dll
+C:\Users\DataBox\source\repos\Try1\Try1\Try1\bin\x64\Debug\net6.0-windows10.0.19041.0\Alarms.deps.json
+C:\Users\DataBox\source\repos\Try1\Try1\Try1\obj\x64\Debug\net6.0-windows10.0.19041.0\App.xbf
+C:\Users\DataBox\source\repos\Try1\Try1\Try1\obj\x64\Debug\net6.0-windows10.0.19041.0\MainWindow.xbf
+C:\Users\DataBox\source\repos\Try1\Try1\Try1\obj\x64\Debug\net6.0-windows10.0.19041.0\apphost.exe
+C:\Users\DataBox\.nuget\packages\google.protobuf\3.19.4\lib\net5.0\Google.Protobuf.pdb
+C:\Users\DataBox\source\repos\Try1\Try1\Try1\bin\x64\Debug\net6.0-windows10.0.19041.0\Alarms.runtimeconfig.json
+C:\Users\DataBox\source\repos\Try1\Try1\Try1\bin\x64\Debug\net6.0-windows10.0.19041.0\Alarms.dll
+C:\Users\DataBox\source\repos\Try1\Try1\Try1\bin\x64\Debug\net6.0-windows10.0.19041.0\Alarms.pdb
