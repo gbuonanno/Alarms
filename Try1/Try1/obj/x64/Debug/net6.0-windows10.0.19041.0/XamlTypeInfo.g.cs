@@ -13,17 +13,17 @@ namespace Try1
     public partial class App : global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider
     {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 1.0.0.0")]
-        private global::Alarms.Try1_XamlTypeInfo.XamlMetaDataProvider __appProvider;
+        private global::Try1.Try1_XamlTypeInfo.XamlMetaDataProvider __appProvider;
 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 1.0.0.0")]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        private global::Alarms.Try1_XamlTypeInfo.XamlMetaDataProvider _AppProvider
+        private global::Try1.Try1_XamlTypeInfo.XamlMetaDataProvider _AppProvider
         {
             get
             {
                 if (__appProvider == null)
                 {
-                    __appProvider = new global::Alarms.Try1_XamlTypeInfo.XamlMetaDataProvider();
+                    __appProvider = new global::Try1.Try1_XamlTypeInfo.XamlMetaDataProvider();
                 }
                 return __appProvider;
             }
@@ -61,7 +61,7 @@ namespace Try1
     }
 }
 
-namespace Alarms.Try1_XamlTypeInfo
+namespace Try1.Try1_XamlTypeInfo
 {
     /// <summary>
     /// Main class for providing metadata for the app or library
@@ -70,15 +70,15 @@ namespace Alarms.Try1_XamlTypeInfo
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     public sealed class XamlMetaDataProvider : global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider
     {
-        private global::Alarms.Try1_XamlTypeInfo.XamlTypeInfoProvider _provider = null;
+        private global::Try1.Try1_XamlTypeInfo.XamlTypeInfoProvider _provider = null;
 
-        private global::Alarms.Try1_XamlTypeInfo.XamlTypeInfoProvider Provider
+        private global::Try1.Try1_XamlTypeInfo.XamlTypeInfoProvider Provider
         {
             get
             {
                 if (_provider == null)
                 {
-                    _provider = new global::Alarms.Try1_XamlTypeInfo.XamlTypeInfoProvider();
+                    _provider = new global::Try1.Try1_XamlTypeInfo.XamlTypeInfoProvider();
                 }
                 return _provider;
             }
@@ -128,7 +128,7 @@ namespace Alarms.Try1_XamlTypeInfo
                 {
                     xamlType = CreateXamlType(typeIndex);
                 }
-                var userXamlType = xamlType as global::Alarms.Try1_XamlTypeInfo.XamlUserType;
+                var userXamlType = xamlType as global::Try1.Try1_XamlTypeInfo.XamlUserType;
                 if(xamlType == null || (userXamlType != null && userXamlType.IsReturnTypeStub && !userXamlType.IsLocalType))
                 {
                     global::Microsoft.UI.Xaml.Markup.IXamlType libXamlType = CheckOtherMetadataProvidersForType(type);
@@ -167,7 +167,7 @@ namespace Alarms.Try1_XamlTypeInfo
                 {
                     xamlType = CreateXamlType(typeIndex);
                 }
-                var userXamlType = xamlType as global::Alarms.Try1_XamlTypeInfo.XamlUserType;
+                var userXamlType = xamlType as global::Try1.Try1_XamlTypeInfo.XamlUserType;
                 if(xamlType == null || (userXamlType != null && userXamlType.IsReturnTypeStub && !userXamlType.IsLocalType))
                 {
                     global::Microsoft.UI.Xaml.Markup.IXamlType libXamlType = CheckOtherMetadataProvidersForName(typeName);
@@ -285,8 +285,8 @@ namespace Alarms.Try1_XamlTypeInfo
 
         private global::Microsoft.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
-            global::Alarms.Try1_XamlTypeInfo.XamlSystemBaseType xamlType = null;
-            global::Alarms.Try1_XamlTypeInfo.XamlUserType userType;
+            global::Try1.Try1_XamlTypeInfo.XamlSystemBaseType xamlType = null;
+            global::Try1.Try1_XamlTypeInfo.XamlUserType userType;
             string typeName = _typeNameTable[typeIndex];
             global::System.Type type = _typeTable[typeIndex];
 
@@ -294,7 +294,7 @@ namespace Alarms.Try1_XamlTypeInfo
             {
 
             case 0:   //  Microsoft.UI.Xaml.Controls.XamlControlsResources
-                userType = new global::Alarms.Try1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.ResourceDictionary"));
+                userType = new global::Try1.Try1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.ResourceDictionary"));
                 userType.Activator = Activate_0_XamlControlsResources;
                 userType.DictionaryAdd = MapAdd_0_XamlControlsResources;
                 userType.AddMemberName("UseCompactResources");
@@ -302,26 +302,26 @@ namespace Alarms.Try1_XamlTypeInfo
                 break;
 
             case 1:   //  Microsoft.UI.Xaml.ResourceDictionary
-                xamlType = new global::Alarms.Try1_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::Try1.Try1_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 2:   //  Object
-                xamlType = new global::Alarms.Try1_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::Try1.Try1_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 3:   //  Boolean
-                xamlType = new global::Alarms.Try1_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::Try1.Try1_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 4:   //  Try1.MainWindow
-                userType = new global::Alarms.Try1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Window"));
+                userType = new global::Try1.Try1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Window"));
                 userType.Activator = Activate_4_MainWindow;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
             case 5:   //  Microsoft.UI.Xaml.Window
-                xamlType = new global::Alarms.Try1_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::Try1.Try1_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
             return xamlType;
@@ -395,14 +395,14 @@ namespace Alarms.Try1_XamlTypeInfo
 
         private global::Microsoft.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
-            global::Alarms.Try1_XamlTypeInfo.XamlMember xamlMember = null;
-            global::Alarms.Try1_XamlTypeInfo.XamlUserType userType;
+            global::Try1.Try1_XamlTypeInfo.XamlMember xamlMember = null;
+            global::Try1.Try1_XamlTypeInfo.XamlUserType userType;
 
             switch (longMemberName)
             {
             case "Microsoft.UI.Xaml.Controls.XamlControlsResources.UseCompactResources":
-                userType = (global::Alarms.Try1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.XamlControlsResources");
-                xamlMember = new global::Alarms.Try1_XamlTypeInfo.XamlMember(this, "UseCompactResources", "Boolean");
+                userType = (global::Try1.Try1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.XamlControlsResources");
+                xamlMember = new global::Try1.Try1_XamlTypeInfo.XamlMember(this, "UseCompactResources", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_0_XamlControlsResources_UseCompactResources;
                 xamlMember.Setter = set_0_XamlControlsResources_UseCompactResources;
@@ -464,10 +464,10 @@ namespace Alarms.Try1_XamlTypeInfo
 
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 1.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-    internal class XamlUserType : global::Alarms.Try1_XamlTypeInfo.XamlSystemBaseType
+    internal class XamlUserType : global::Try1.Try1_XamlTypeInfo.XamlSystemBaseType
         , global::Microsoft.UI.Xaml.Markup.IXamlType
     {
-        global::Alarms.Try1_XamlTypeInfo.XamlTypeInfoProvider _provider;
+        global::Try1.Try1_XamlTypeInfo.XamlTypeInfoProvider _provider;
         global::Microsoft.UI.Xaml.Markup.IXamlType _baseType;
         global::Microsoft.UI.Xaml.Markup.IXamlType _boxedType;
         bool _isArray;
@@ -482,7 +482,7 @@ namespace Alarms.Try1_XamlTypeInfo
         global::System.Collections.Generic.Dictionary<string, string> _memberNames;
         global::System.Collections.Generic.Dictionary<string, object> _enumValues;
 
-        public XamlUserType(global::Alarms.Try1_XamlTypeInfo.XamlTypeInfoProvider provider, string fullName, global::System.Type fullType, global::Microsoft.UI.Xaml.Markup.IXamlType baseType)
+        public XamlUserType(global::Try1.Try1_XamlTypeInfo.XamlTypeInfoProvider provider, string fullName, global::System.Type fullType, global::Microsoft.UI.Xaml.Markup.IXamlType baseType)
             :base(fullName, fullType)
         {
             _provider = provider;
@@ -697,7 +697,7 @@ namespace Alarms.Try1_XamlTypeInfo
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     internal class XamlMember : global::Microsoft.UI.Xaml.Markup.IXamlMember
     {
-        global::Alarms.Try1_XamlTypeInfo.XamlTypeInfoProvider _provider;
+        global::Try1.Try1_XamlTypeInfo.XamlTypeInfoProvider _provider;
         string _name;
         bool _isAttachable;
         bool _isDependencyProperty;
@@ -706,7 +706,7 @@ namespace Alarms.Try1_XamlTypeInfo
         string _typeName;
         string _targetTypeName;
 
-        public XamlMember(global::Alarms.Try1_XamlTypeInfo.XamlTypeInfoProvider provider, string name, string typeName)
+        public XamlMember(global::Try1.Try1_XamlTypeInfo.XamlTypeInfoProvider provider, string name, string typeName)
         {
             _name = name;
             _typeName = typeName;

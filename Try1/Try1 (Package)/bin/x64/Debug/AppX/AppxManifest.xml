@@ -24,7 +24,7 @@
     <Resource Language="EN-US" />
   </Resources>
   <Applications>
-    <Application Id="App" Executable="Try1\Alarms.exe" EntryPoint="Windows.FullTrustApplication">
+    <Application Id="App" Executable="Try1\Try1.exe" EntryPoint="Windows.FullTrustApplication">
       <uap:VisualElements DisplayName="Try1 (Package)" Description="Try1 (Package)" BackgroundColor="transparent" Square150x150Logo="Images\Square150x150Logo.png" Square44x44Logo="Images\Square44x44Logo.png">
         <uap:DefaultTile Wide310x150Logo="Images\Wide310x150Logo.png" />
         <uap:SplashScreen Image="Images\SplashScreen.png" />

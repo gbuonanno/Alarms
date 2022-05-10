@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>68755889-ec26-4126-92d7-0c65a705b2e5</PackageIdentityName>
     <PackageIdentityPublisher>CN=DataBox</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\DataBox\source\repos\Try1\Try1\Try1 %28Package%29\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 %28Package%29\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\DataBox\source\repos\Try1\Try1\Try1 %28Package%29\bin\x64\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>4104F940CDCA0B80D5A6815AE6593AFBC66308CEA670C637F2757FF8EDE2A70A</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 %28Package%29\bin\x64\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>7C499D84746A99F6322329E76A5F1501130FC19D5167D038A895DBE46D996C4E</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>68755889-ec26-4126-92d7-0c65a705b2e5_1.0.0.0_x64__daffpetdj8k20</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>68755889-ec26-4126-92d7-0c65a705b2e5_daffpetdj8k20!App</RegisteredUserModeAppID>
     <RegisteredPackageID>68755889-ec26-4126-92d7-0c65a705b2e5</RegisteredPackageID>
@@ -27,62 +27,62 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\DataBox\source\repos\Try1\Try1\Try1 %28Package%29\bin\x64\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 %28Package%29\bin\x64\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-05-05T11:33:35.182</Modified>
+      <Modified>2022-05-10T07:42:42.603</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Try1\Try1\Try1\bin\x64\Debug\net6.0-windows10.0.19041.0\App.xbf">
+    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Alarm\Try1\Try1\bin\x64\Debug\net6.0-windows10.0.19041.0\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-05-05T11:33:30.098</Modified>
+      <Modified>2022-05-10T07:42:28.723</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Try1\Try1\Try1\bin\x64\Debug\net6.0-windows10.0.19041.0\MainWindow.xbf">
+    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Alarm\Try1\Try1\bin\x64\Debug\net6.0-windows10.0.19041.0\MainWindow.xbf">
       <PackagePath>MainWindow.xbf</PackagePath>
-      <Modified>2022-05-05T11:33:30.098</Modified>
+      <Modified>2022-05-10T07:42:28.722</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\Redist\Debug\x64\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
       <Modified>2020-12-02T04:31:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Try1\Try1\Try1 %28Package%29\Images\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 %28Package%29\Images\SplashScreen.scale-200.png">
       <PackagePath>Images\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-15T11:01:02.500</Modified>
+      <Modified>2022-05-10T07:37:55.799</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Try1\Try1\Try1 %28Package%29\Images\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 %28Package%29\Images\LockScreenLogo.scale-200.png">
       <PackagePath>Images\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2022-02-15T11:01:02.498</Modified>
+      <Modified>2022-05-10T07:37:55.797</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Try1\Try1\Try1 %28Package%29\Images\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 %28Package%29\Images\Square150x150Logo.scale-200.png">
       <PackagePath>Images\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-15T11:01:02.502</Modified>
+      <Modified>2022-05-10T07:37:55.800</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Try1\Try1\Try1 %28Package%29\Images\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 %28Package%29\Images\Square44x44Logo.scale-200.png">
       <PackagePath>Images\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-15T11:01:02.503</Modified>
+      <Modified>2022-05-10T07:37:55.801</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Try1\Try1\Try1 %28Package%29\Images\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 %28Package%29\Images\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-15T11:01:02.504</Modified>
+      <Modified>2022-05-10T07:37:55.802</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Try1\Try1\Try1 %28Package%29\Images\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 %28Package%29\Images\StoreLogo.png">
       <PackagePath>Images\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-15T11:01:02.505</Modified>
+      <Modified>2022-05-10T07:37:55.803</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Try1\Try1\Try1 %28Package%29\Images\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 %28Package%29\Images\Wide310x150Logo.scale-200.png">
       <PackagePath>Images\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-15T11:01:02.509</Modified>
+      <Modified>2022-05-10T07:37:55.804</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Try1\Try1\Try1 %28Package%29\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 %28Package%29\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-05-05T11:33:35.015</Modified>
+      <Modified>2022-05-10T07:42:42.390</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DataBox\.nuget\packages\bouncycastle.netcore\1.8.5\lib\netstandard2.0\BouncyCastle.Crypto.dll">
       <PackagePath>Try1\BouncyCastle.Crypto.dll</PackagePath>
@@ -212,29 +212,29 @@
       <PackagePath>Try1\WinRT.Runtime.dll</PackagePath>
       <Modified>2022-03-15T03:04:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Try1\Try1\Try1\bin\x64\Debug\net6.0-windows10.0.19041.0\Alarms.deps.json">
-      <PackagePath>Try1\Alarms.deps.json</PackagePath>
-      <Modified>2022-05-05T11:33:31.383</Modified>
+    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Alarm\Try1\Try1\bin\x64\Debug\net6.0-windows10.0.19041.0\Try1.deps.json">
+      <PackagePath>Try1\Try1.deps.json</PackagePath>
+      <Modified>2022-05-10T07:42:31.053</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Try1\Try1\Try1\obj\x64\Debug\net6.0-windows10.0.19041.0\App.xbf">
+    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Alarm\Try1\Try1\obj\x64\Debug\net6.0-windows10.0.19041.0\App.xbf">
       <PackagePath>Try1\App.xbf</PackagePath>
-      <Modified>2022-05-05T11:33:30.098</Modified>
+      <Modified>2022-05-10T07:42:28.723</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Try1\Try1\Try1\obj\x64\Debug\net6.0-windows10.0.19041.0\MainWindow.xbf">
+    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Alarm\Try1\Try1\obj\x64\Debug\net6.0-windows10.0.19041.0\MainWindow.xbf">
       <PackagePath>Try1\MainWindow.xbf</PackagePath>
-      <Modified>2022-05-05T11:33:30.098</Modified>
+      <Modified>2022-05-10T07:42:28.722</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Try1\Try1\Try1\obj\x64\Debug\net6.0-windows10.0.19041.0\apphost.exe">
-      <PackagePath>Try1\Alarms.exe</PackagePath>
-      <Modified>2022-05-05T11:33:30.851</Modified>
+    <AppxPackagedFile Include="C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1\obj\x64\Debug\net6.0-windows10.0.19041.0\apphost.exe">
+      <PackagePath>Try1\Try1.exe</PackagePath>
+      <Modified>2022-05-10T07:42:29.722</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Try1\Try1\Try1\bin\x64\Debug\net6.0-windows10.0.19041.0\Alarms.runtimeconfig.json">
-      <PackagePath>Try1\Alarms.runtimeconfig.json</PackagePath>
-      <Modified>2022-05-05T11:33:31.612</Modified>
+    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Alarm\Try1\Try1\bin\x64\Debug\net6.0-windows10.0.19041.0\Try1.runtimeconfig.json">
+      <PackagePath>Try1\Try1.runtimeconfig.json</PackagePath>
+      <Modified>2022-05-10T07:42:31.454</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Try1\Try1\Try1\bin\x64\Debug\net6.0-windows10.0.19041.0\Alarms.dll">
-      <PackagePath>Try1\Alarms.dll</PackagePath>
-      <Modified>2022-05-05T11:33:30.806</Modified>
+    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Alarm\Try1\Try1\bin\x64\Debug\net6.0-windows10.0.19041.0\Try1.dll">
+      <PackagePath>Try1\Try1.dll</PackagePath>
+      <Modified>2022-05-10T07:42:29.669</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

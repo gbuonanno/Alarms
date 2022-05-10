@@ -99,6 +99,7 @@ namespace Try1
                                 error.Level = reader.GetString(2);
                                 error.Action = reader.GetString(3);
                                 error.Time = reader.GetDouble(4);
+                                error.Date = reader.GetString(5);
                                 Alarms_list.Add(error);
 
                                 

@@ -23,7 +23,7 @@
             Foreground="#2E3A47">
             ALARM LIST
         </TextBlock>
-        <ListView
+        <ListView x:ConnectionId='2'
             Name="ListViewError"
             Grid.Row="1"
             Width="1600"
@@ -99,8 +99,8 @@
                 </DataTemplate>
             </ListView.HeaderTemplate>
             <ListView.ItemTemplate>
-                <DataTemplate x:DataType="local:Error">
-                    <Grid>
+                <DataTemplate                         >
+                    <Grid x:ConnectionId='16'>
                         <Grid.RowDefinitions>
                             <RowDefinition Height="35" />
                             <RowDefinition Height="2" />
@@ -109,7 +109,7 @@
                             Height="30"
                             VerticalAlignment="Bottom"
                             Orientation="Horizontal">
-                            <TextBlock
+                            <TextBlock x:ConnectionId='17'
                                 Name="Name_Field"
                                 Width="100"
                                 Margin="20,0,0,0"
@@ -117,8 +117,8 @@
                                 FontSize="20"
                                 FontWeight="Normal"
                                 Foreground="#2E3A47"
-                                Text="{x:Bind ID}" />
-                            <TextBlock
+                                                   />
+                            <TextBlock x:ConnectionId='18'
                                 Name= "Messsage_Field"
                                 Width="300"
                                 Margin="20,0,0,0"
@@ -126,31 +126,31 @@
                                 FontSize="20"
                                 FontWeight="Normal"
                                 Foreground="#2E3A47"
-                                Text="{x:Bind Message}" />
-                            <TextBlock
+                                                        />
+                            <TextBlock x:ConnectionId='19'
                                 Name="State_Field"
                                 Width="100"
                                 FontFamily="Segoe UI"
                                 FontSize="20"
                                 FontWeight="SemiBold"
                                 Foreground="#FF2D55"    
-                                Text="{x:Bind Level}" />
-                            <TextBlock
+                                                      />
+                            <TextBlock x:ConnectionId='20'
                                 Name="Action_Field"
                                 Width="500"
                                 FontFamily="Segoe UI"
                                 FontSize="20"
                                 FontWeight="Light"
                                 Foreground="#193566"
-                                Text="{x:Bind Action}" />
-                            <TextBlock
+                                                       />
+                            <TextBlock x:ConnectionId='21'
                                 Name="Date_Field"
                                 Width="500"
                                 FontFamily="Segoe UI"
                                 FontSize="20"
                                 FontWeight="Light"
                                 Foreground="#193566"
-                                Text="{x:Bind Date}" />
+                                                     />
                            
                         </StackPanel>
                         <Rectangle
@@ -172,7 +172,7 @@
             Foreground="#2E3A47">
             ERRORS LIST
         </TextBlock>
-        <ListView
+        <ListView x:ConnectionId='3'
             Name="ListViewErrors"
             Grid.Row="0"
             Width="850"
@@ -250,8 +250,8 @@
                 </DataTemplate>
             </ListView.HeaderTemplate>
             <ListView.ItemTemplate>
-                <DataTemplate x:DataType="local:Error_list">
-                    <Grid>
+                <DataTemplate                              >
+                    <Grid x:ConnectionId='8'>
                         <Grid.RowDefinitions>
                             <RowDefinition Height="35" />
                             <RowDefinition Height="2" />
@@ -260,7 +260,7 @@
                             Height="30"
                             VerticalAlignment="Bottom"
                             Orientation="Horizontal">
-                            <TextBlock
+                            <TextBlock x:ConnectionId='9'
                                 Name="Name_Field"
                                 Width="300"
                                 Margin="20,0,0,0"
@@ -268,39 +268,39 @@
                                 FontSize="20"
                                 FontWeight="Normal"
                                 Foreground="#2E3A47"
-                                Text="{x:Bind Message}" />
-                            <TextBlock
+                                                        />
+                            <TextBlock x:ConnectionId='10'
                                 Name="Time_Field"
                                 Width="120"
                                 FontFamily="Segoe UI"
                                 FontSize="20"
                                 FontWeight="Light"
                                 Foreground="#193566"
-                                Text="{x:Bind Time}" />
-                            <TextBlock
+                                                     />
+                            <TextBlock x:ConnectionId='11'
                                 Name="Frecuency_Field"
                                 Width="120"
                                 FontFamily="Segoe UI"
                                 FontSize="20"
                                 FontWeight="Light"
                                 Foreground="#193566"
-                                Text="{x:Bind Count}" />
-                            <TextBlock
+                                                      />
+                            <TextBlock x:ConnectionId='12'
                                 Name="Total_Field"
                                 Width="120"
                                 FontFamily="Segoe UI"
                                 FontSize="20"
                                 FontWeight="Light"
                                 Foreground="#193566"
-                                Text="{x:Bind Total}" />
-                            <TextBlock
+                                                      />
+                            <TextBlock x:ConnectionId='13'
                                 Name="State_Field"
                                 Width="120"
                                 FontFamily="Segoe UI"
                                 FontSize="20"
                                 FontWeight="SemiBold"
                                 Foreground="#FF2D55"
-                                Text="{x:Bind Level}" />
+                                                      />
                         </StackPanel>
                         <Rectangle
                             Grid.Row="1"
@@ -311,7 +311,7 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <TextBlock
+        <TextBlock x:ConnectionId='4'
          Name ="Availability_Text"
          Width="1000"
          Margin="1000,50,0,0"
@@ -322,7 +322,7 @@
          Foreground="#2E3A47"
          Text =" AVAILABILITY "/>
 
-        <TextBlock
+        <TextBlock x:ConnectionId='5'
          Name ="Availability_TextBlock"
          Width="1000"
          Margin="1150,200,0,0"
@@ -336,3 +336,4 @@
     </Grid>
 
 </Window>
+
