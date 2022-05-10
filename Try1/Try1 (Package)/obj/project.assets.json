@@ -2505,11 +2505,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DataBox\\source\\repos\\Try1\\Try1\\Try1 (Package)\\Try1 (Package).wapproj",
+      "projectUniqueName": "C:\\Users\\DataBox\\Source\\Repos\\Alarm\\Try1\\Try1 (Package)\\Try1 (Package).wapproj",
       "projectName": "Try1 (Package)",
-      "projectPath": "C:\\Users\\DataBox\\source\\repos\\Try1\\Try1\\Try1 (Package)\\Try1 (Package).wapproj",
+      "projectPath": "C:\\Users\\DataBox\\Source\\Repos\\Alarm\\Try1\\Try1 (Package)\\Try1 (Package).wapproj",
       "packagesPath": "C:\\Users\\DataBox\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DataBox\\source\\repos\\Try1\\Try1\\Try1 (Package)\\obj\\",
+      "outputPath": "C:\\Users\\DataBox\\Source\\Repos\\Alarm\\Try1\\Try1 (Package)\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2530,8 +2530,8 @@
         "uap10.0.17763": {
           "targetAlias": "net451",
           "projectReferences": {
-            "C:\\Users\\DataBox\\source\\repos\\Try1\\Try1\\Try1\\Try1.csproj": {
-              "projectPath": "C:\\Users\\DataBox\\source\\repos\\Try1\\Try1\\Try1\\Try1.csproj"
+            "C:\\Users\\DataBox\\Source\\Repos\\Alarm\\Try1\\Try1\\Try1.csproj": {
+              "projectPath": "C:\\Users\\DataBox\\Source\\Repos\\Alarm\\Try1\\Try1\\Try1.csproj"
             }
           }
         }

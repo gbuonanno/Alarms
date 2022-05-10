@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "melMOYpkxi4k0CzT1xguKwlZ/oi4l/8f6Y7H0V/1WHZn2B8fZYOE1Yzsp3+LHm64C0YDKU/cIa3Z2K8q5KrS+w==",
+  "dgSpecHash": "NEbdzhDAMceMhlcHxMrlsJpHua/V42FEOPfxBf+E3OWrjv6tHswSAhrl+WiwUBF5oKBGLY2/CGWD0e58m5w4GQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DataBox\\source\\repos\\Try1\\Try1\\Try1 (Package)\\Try1 (Package).wapproj",
+  "projectFilePath": "C:\\Users\\DataBox\\Source\\Repos\\Alarm\\Try1\\Try1 (Package)\\Try1 (Package).wapproj",
   "expectedPackageFiles": [
     "C:\\Users\\DataBox\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\DataBox\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",
