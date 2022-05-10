@@ -25,10 +25,10 @@
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Alarm\Try1\Try1\bin\x64\Debug\net6.0-windows10.0.19041.0\App.xbf">
+    <AppxPackagedFile Include="C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1\bin\x64\Debug\net6.0-windows10.0.19041.0\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Alarm\Try1\Try1\bin\x64\Debug\net6.0-windows10.0.19041.0\MainWindow.xbf">
+    <AppxPackagedFile Include="C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1\bin\x64\Debug\net6.0-windows10.0.19041.0\MainWindow.xbf">
       <PackagePath>MainWindow.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\Redist\Debug\x64\ucrtbased.dll">
@@ -160,22 +160,22 @@
     <AppxPackagedFile Include="C:\Users\DataBox\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.24\lib\WinRT.Runtime.dll">
       <PackagePath>Try1\WinRT.Runtime.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Alarm\Try1\Try1\bin\x64\Debug\net6.0-windows10.0.19041.0\Try1.deps.json">
+    <AppxPackagedFile Include="C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1\bin\x64\Debug\net6.0-windows10.0.19041.0\Try1.deps.json">
       <PackagePath>Try1\Try1.deps.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Alarm\Try1\Try1\obj\x64\Debug\net6.0-windows10.0.19041.0\App.xbf">
+    <AppxPackagedFile Include="C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1\obj\x64\Debug\net6.0-windows10.0.19041.0\App.xbf">
       <PackagePath>Try1\App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Alarm\Try1\Try1\obj\x64\Debug\net6.0-windows10.0.19041.0\MainWindow.xbf">
+    <AppxPackagedFile Include="C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1\obj\x64\Debug\net6.0-windows10.0.19041.0\MainWindow.xbf">
       <PackagePath>Try1\MainWindow.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1\obj\x64\Debug\net6.0-windows10.0.19041.0\apphost.exe">
       <PackagePath>Try1\Try1.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Alarm\Try1\Try1\bin\x64\Debug\net6.0-windows10.0.19041.0\Try1.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1\bin\x64\Debug\net6.0-windows10.0.19041.0\Try1.runtimeconfig.json">
       <PackagePath>Try1\Try1.runtimeconfig.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Alarm\Try1\Try1\bin\x64\Debug\net6.0-windows10.0.19041.0\Try1.dll">
+    <AppxPackagedFile Include="C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1\bin\x64\Debug\net6.0-windows10.0.19041.0\Try1.dll">
       <PackagePath>Try1\Try1.dll</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

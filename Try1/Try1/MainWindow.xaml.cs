@@ -5,9 +5,12 @@ using System.Collections.ObjectModel;
 using Microsoft.UI.Xaml.Input;
 using Microsoft.UI.Xaml.Media;
 using System;
+using System.Net;
+using System.Net.Mail;
 using System.Diagnostics;
 using MySql.Data.MySqlClient;
 using System.Collections.Generic;
+
 
 
 
@@ -99,7 +102,7 @@ namespace Try1
                                 error.Level = reader.GetString(2);
                                 error.Action = reader.GetString(3);
                                 error.Time = reader.GetDouble(4);
-                                error.Date = reader.GetString(5);
+                                error.Date = reader.GetDateTime(5);
                                 Alarms_list.Add(error);
 
                                 
@@ -210,8 +213,10 @@ namespace Try1
             //1440 Minutes a day 
 
             double Availability = (1440 - Stop_Time)/1440;
+            
             System.Diagnostics.Debug.WriteLine("Availability =" + Availability + "%");
             Availability_TextBlock.Text = Availability.ToString(".##"+"%");
+           
             //Availability_Text.Text=DateTime.Today.ToString(); 
 
             // Sort by Total 

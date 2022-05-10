@@ -5,24 +5,36 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:local="using:Try1"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d">
+    mc:Ignorable="d"
+   >
     
-    <Grid>
+    <Grid x:Name="LayoutRoot" Background="#E2E8ED">
 
 
         <Grid.RowDefinitions>
             <RowDefinition Height="500" />
             <RowDefinition Height="500" />
         </Grid.RowDefinitions>
+       
+        <Rectangle
+                Grid.Column="1"
+                Grid.Row="1"
+                Width="1600"
+                Margin="20,20,0,0"
+                HorizontalAlignment="Left"
+                Fill="White"
+                RadiusX="25"
+                RadiusY="25" />
         <TextBlock
             Grid.Row="1"
-            Margin="40,18,0,0"
+            Margin="40,22,0,0"
             FontFamily="Segoe UI"
             FontSize="20"
             FontWeight="Bold"
             Foreground="#2E3A47">
             ALARM LIST
         </TextBlock>
+        
         <ListView
             Name="ListViewError"
             Grid.Row="1"
@@ -162,6 +174,15 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+        <Rectangle
+                Grid.Column="0"
+                Grid.Row="0"
+                Width="900"
+                Margin="20,10,0,0"
+                HorizontalAlignment="Left"
+                Fill="White"
+                RadiusX="25"
+                RadiusY="25" />
 
         <TextBlock
             Grid.Row="0"
@@ -311,13 +332,43 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+        <Rectangle
+                Grid.Column="0"
+                Grid.Row="0"
+                Width="670"
+                Margin="950,20,0,0"
+                HorizontalAlignment="Left"
+                Fill="White"
+                RadiusX="25"
+                RadiusY="25" />
+       
+
+        <Path Stroke="#007AFF" StrokeThickness="35" Grid.Column="0" Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Top">
+        <Path.Data>
+            <PathGeometry>
+                <PathGeometry.Figures>
+                    <PathFigureCollection>
+                        <PathFigure x:Name="testchartOEE" StartPoint="1250,50">
+                            <PathFigure.Segments>
+                                <PathSegmentCollection>
+                                    <ArcSegment  x:Name="DirectionOEE" Size="200,200"  RotationAngle="0" IsLargeArc="True"  SweepDirection="Clockwise" Point="1249,50" />
+                                </PathSegmentCollection>
+                            </PathFigure.Segments>
+                        </PathFigure>
+                    </PathFigureCollection> 
+                </PathGeometry.Figures>
+            </PathGeometry>
+        </Path.Data>
+        </Path>
+
+
         <TextBlock
          Name ="Availability_Text"
          Width="1000"
-         Margin="1000,50,0,0"
+         Margin="1125,150,0,0"
          HorizontalAlignment="Left"
          FontFamily="Segoe UI"
-         FontSize="80"
+         FontSize="40"
          FontWeight="Normal"
          Foreground="#2E3A47"
          Text =" AVAILABILITY "/>
@@ -325,10 +376,10 @@
         <TextBlock
          Name ="Availability_TextBlock"
          Width="1000"
-         Margin="1150,200,0,0"
+         Margin="1160,220,0,0"
          HorizontalAlignment="Left"
          FontFamily="Segoe UI"
-         FontSize="80"
+         FontSize="60"
          FontWeight="Normal"
          Foreground="#2E3A47"
           />

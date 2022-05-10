@@ -14,7 +14,9 @@ namespace Try1
         public String Action { get; set; }
         public Double Time { get; set; }
 
-        public String Date { get; set; }
+        public DateTime Date { get; set; }
+
+        
 
 
     }
