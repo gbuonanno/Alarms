@@ -112,7 +112,7 @@
             </ListView.HeaderTemplate>
             <ListView.ItemTemplate>
                 <DataTemplate                         >
-                    <Grid x:ConnectionId='19'>
+                    <Grid x:ConnectionId='20'>
                         <Grid.RowDefinitions>
                             <RowDefinition Height="35" />
                             <RowDefinition Height="2" />
@@ -121,7 +121,7 @@
                             Height="30"
                             VerticalAlignment="Bottom"
                             Orientation="Horizontal">
-                            <TextBlock x:ConnectionId='20'
+                            <TextBlock x:ConnectionId='21'
                                 Name="Name_Field"
                                 Width="100"
                                 Margin="20,0,0,0"
@@ -130,7 +130,7 @@
                                 FontWeight="Normal"
                                 Foreground="#2E3A47"
                                                    />
-                            <TextBlock x:ConnectionId='21'
+                            <TextBlock x:ConnectionId='22'
                                 Name= "Messsage_Field"
                                 Width="300"
                                 Margin="20,0,0,0"
@@ -139,7 +139,7 @@
                                 FontWeight="Normal"
                                 Foreground="#2E3A47"
                                                         />
-                            <TextBlock x:ConnectionId='22'
+                            <TextBlock x:ConnectionId='23'
                                 Name="State_Field"
                                 Width="100"
                                 FontFamily="Segoe UI"
@@ -147,7 +147,7 @@
                                 FontWeight="SemiBold"
                                 Foreground="#FF2D55"    
                                                       />
-                            <TextBlock x:ConnectionId='23'
+                            <TextBlock x:ConnectionId='24'
                                 Name="Action_Field"
                                 Width="500"
                                 FontFamily="Segoe UI"
@@ -155,7 +155,7 @@
                                 FontWeight="Light"
                                 Foreground="#193566"
                                                        />
-                            <TextBlock x:ConnectionId='24'
+                            <TextBlock x:ConnectionId='25'
                                 Name="Date_Field"
                                 Width="500"
                                 FontFamily="Segoe UI"
@@ -215,15 +215,23 @@
                             <RowDefinition Height="2" />
                         </Grid.RowDefinitions>
                         <StackPanel Grid.Row="0" Orientation="Horizontal">
-                            
                             <TextBlock
-                                Width="300"
+                                Width="80"
                                 Margin="30,10,0,0"
+                                HorizontalAlignment="Right"
                                 FontFamily="Segoe UI"
                                 FontSize="20"
                                 FontWeight="Normal"
                                 Foreground="#2E3A47"
-                                Text="Message" />
+                                Text="Code " />
+                            <TextBlock
+                                Width="300"
+                                Margin="10,10,0,0"
+                                FontFamily="Segoe UI"
+                                FontSize="20"
+                                FontWeight="Normal"
+                                Foreground="#2E3A47"
+                                Text="Message  " />
                             <TextBlock
                                 Width="100"
                                 Margin="0,10,0,0"
@@ -240,7 +248,7 @@
                                 FontSize="20"
                                 FontWeight="Normal"
                                 Foreground="#2E3A47"
-                                Text="Frecuency" />
+                                Text="Frecuency " />
                             <TextBlock
                                 Width="120"
                                 Margin="0,10,0,0"
@@ -282,15 +290,24 @@
                             VerticalAlignment="Bottom"
                             Orientation="Horizontal">
                             <TextBlock x:ConnectionId='12'
+                                Name="Code_Field"
+                                Width="80"
+                                FontFamily="Segoe UI"
+                                Margin="20,0,0,0"
+                                FontSize="20"
+                                FontWeight="Light"
+                                Foreground="#193566"
+                                                     />
+                            <TextBlock x:ConnectionId='13'
                                 Name="Name_Field"
                                 Width="300"
-                                Margin="20,0,0,0"
+                                Margin="10,0,0,0"
                                 FontFamily="Segoe UI"
                                 FontSize="20"
                                 FontWeight="Normal"
                                 Foreground="#2E3A47"
                                                         />
-                            <TextBlock x:ConnectionId='13'
+                            <TextBlock x:ConnectionId='14'
                                 Name="Time_Field"
                                 Width="120"
                                 FontFamily="Segoe UI"
@@ -298,7 +315,7 @@
                                 FontWeight="Light"
                                 Foreground="#193566"
                                                      />
-                            <TextBlock x:ConnectionId='14'
+                            <TextBlock x:ConnectionId='15'
                                 Name="Frecuency_Field"
                                 Width="120"
                                 FontFamily="Segoe UI"
@@ -306,7 +323,7 @@
                                 FontWeight="Light"
                                 Foreground="#193566"
                                                       />
-                            <TextBlock x:ConnectionId='15'
+                            <TextBlock x:ConnectionId='16'
                                 Name="Total_Field"
                                 Width="120"
                                 FontFamily="Segoe UI"
@@ -314,7 +331,7 @@
                                 FontWeight="Light"
                                 Foreground="#193566"
                                                       />
-                            <TextBlock x:ConnectionId='16'
+                            <TextBlock x:ConnectionId='17'
                                 Name="State_Field"
                                 Width="120"
                                 FontFamily="Segoe UI"
@@ -335,9 +352,9 @@
         <Rectangle
                 Grid.Column="0"
                 Grid.Row="0"
-                Width="400"
-                Margin="1000,20,0,0"
-                HorizontalAlignment="Right"
+                Width="670"
+                Margin="950,20,0,0"
+                HorizontalAlignment="Left"
                 Fill="White"
                 RadiusX="25"
                 RadiusY="25" />
@@ -365,10 +382,10 @@
         <TextBlock x:ConnectionId='5'
          Name ="Availability_Text"
          Width="1000"
-         Margin="1000,50,0,0"
+         Margin="1125,150,0,0"
          HorizontalAlignment="Left"
          FontFamily="Segoe UI"
-         FontSize="80"
+         FontSize="40"
          FontWeight="Normal"
          Foreground="#2E3A47"
          Text =" AVAILABILITY "/>
@@ -376,10 +393,10 @@
         <TextBlock x:ConnectionId='6'
          Name ="Availability_TextBlock"
          Width="1000"
-         Margin="1150,200,0,0"
+         Margin="1160,220,0,0"
          HorizontalAlignment="Left"
          FontFamily="Segoe UI"
-         FontSize="80"
+         FontSize="60"
          FontWeight="Normal"
          Foreground="#2E3A47"
           />

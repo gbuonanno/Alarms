@@ -27,6 +27,7 @@ namespace Try1
         public int Count { get; set; }
         public int Level { get; set; }
         public double Total { get; set; }
+        public int Code { get; set; }   
 
         public double Total_Stop()
         {

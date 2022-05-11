@@ -127,6 +127,7 @@ namespace Try1
         {
             System.Diagnostics.Debug.WriteLine("llamada a la función");
             List<Error_list> error_Lists = new List<Error_list>();
+            int Code_count = 0;
             
             try
             {
@@ -159,7 +160,7 @@ namespace Try1
                                 String Message_Entry = reader.GetString(1);
 
                                 bool found = false;
-                                // Hace falta crear un contador y comparar con Message_Entry
+                                
                                 int size = error_Lists.Count;
                                 for (int k = 0; k < size; k++)
                                 {
@@ -174,7 +175,9 @@ namespace Try1
                                 }
                                 if( found == false)
                                 {
-                                 error_Lists.Add(new Error_list() { Message = reader.GetString(1), Time = reader.GetDouble(4), Count = 1 , Level =1 });
+                                    // Temporary code counter, should be added from the SQL data base
+                                 Code_count++;
+                                 error_Lists.Add(new Error_list() { Message = reader.GetString(1), Time = reader.GetDouble(4), Count = 1 , Level =1 ,Code= Code_count});
                                 }
                                   
 
@@ -241,11 +244,14 @@ namespace Try1
 
             //Level of errors
             int Per_Level = error_Lists.Count/3;
+            int Total_errors3 = 0;
 
 
             for ( int i = 0; i< Per_Level; i++)
             {
                 error_Lists[i].Level = 3;
+                Total_errors3++;
+                
             }
 
             for (int i = Per_Level; i < (2 * Per_Level); i++)
@@ -258,6 +264,26 @@ namespace Try1
             foreach (Error_list aPart in error_Lists)
             {
                 System.Diagnostics.Debug.WriteLine(aPart.Level);
+            }
+            // Implementation of Email
+            string Mail_from = "linqtestemail2022@gmail.com";
+            string Mail_password = "SUNRISE2022";
+            string Mail_to= "linqtestemail2022@gmail.com";
+            using (MailMessage mail = new MailMessage())
+            {
+                mail.From = new MailAddress(Mail_from);
+                mail.To.Add(Mail_to);
+                mail.Subject = "Test Sending mail";
+                mail.Body = "<h1>  Informe de alarmas </h1> <br> <h2> El total de errores nivel 3 es " + Total_errors3 + "<h2>"; 
+                mail.IsBodyHtml = true;
+                using (SmtpClient smtp = new SmtpClient("smtp.gmail.com",587))
+                {
+                    smtp.UseDefaultCredentials = false;
+                    smtp.EnableSsl = true;
+                    smtp.Credentials = new System.Net.NetworkCredential(Mail_from,Mail_password);
+                    smtp.Send(mail);
+                   
+                }
             }
 
 
