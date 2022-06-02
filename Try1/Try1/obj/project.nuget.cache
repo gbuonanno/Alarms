@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GU9Y8Kto0Y4GF6U5f19kmDl50TGYopoXjaBVrDXGD5pAQ034bQMU9LKRqFH7KV+tTjeSw3ESWzFYhlPIgAtzRg==",
+  "dgSpecHash": "iEdsZjY9PDBtkt/XmsgL+vAJ4HCRUnH893rFA3AnHAxsfMhqVthyHybHTVDA/vlMSN+G8ztpXuYPaeAQxw5N9w==",
   "success": true,
   "projectFilePath": "C:\\Users\\DataBox\\Source\\Repos\\Alarm\\Try1\\Try1\\Try1.csproj",
   "expectedPackageFiles": [
@@ -25,16 +25,16 @@
     "C:\\Users\\DataBox\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
     "C:\\Users\\DataBox\\.nuget\\packages\\system.text.encoding.codepages\\4.4.0\\system.text.encoding.codepages.4.4.0.nupkg.sha512",
     "C:\\Users\\DataBox\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
-    "C:\\Users\\DataBox\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.4\\microsoft.netcore.app.runtime.win-x64.6.0.4.nupkg.sha512",
-    "C:\\Users\\DataBox\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.4\\microsoft.aspnetcore.app.runtime.win-x64.6.0.4.nupkg.sha512",
-    "C:\\Users\\DataBox\\.nuget\\packages\\microsoft.netcore.app.runtime.win-arm64\\6.0.4\\microsoft.netcore.app.runtime.win-arm64.6.0.4.nupkg.sha512",
-    "C:\\Users\\DataBox\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.4\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.4.nupkg.sha512",
-    "C:\\Users\\DataBox\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.24\\microsoft.windows.sdk.net.ref.10.0.19041.24.nupkg.sha512",
-    "C:\\Users\\DataBox\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-arm64\\6.0.4\\microsoft.aspnetcore.app.runtime.win-arm64.6.0.4.nupkg.sha512",
-    "C:\\Users\\DataBox\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\6.0.4\\microsoft.netcore.app.runtime.win-x86.6.0.4.nupkg.sha512",
-    "C:\\Users\\DataBox\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-arm64\\6.0.4\\microsoft.windowsdesktop.app.runtime.win-arm64.6.0.4.nupkg.sha512",
-    "C:\\Users\\DataBox\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\6.0.4\\microsoft.aspnetcore.app.runtime.win-x86.6.0.4.nupkg.sha512",
-    "C:\\Users\\DataBox\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\6.0.4\\microsoft.windowsdesktop.app.runtime.win-x86.6.0.4.nupkg.sha512"
+    "C:\\Users\\DataBox\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.5\\microsoft.netcore.app.runtime.win-x64.6.0.5.nupkg.sha512",
+    "C:\\Users\\DataBox\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.5\\microsoft.aspnetcore.app.runtime.win-x64.6.0.5.nupkg.sha512",
+    "C:\\Users\\DataBox\\.nuget\\packages\\microsoft.netcore.app.runtime.win-arm64\\6.0.5\\microsoft.netcore.app.runtime.win-arm64.6.0.5.nupkg.sha512",
+    "C:\\Users\\DataBox\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.5\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.5.nupkg.sha512",
+    "C:\\Users\\DataBox\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.25\\microsoft.windows.sdk.net.ref.10.0.19041.25.nupkg.sha512",
+    "C:\\Users\\DataBox\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-arm64\\6.0.5\\microsoft.aspnetcore.app.runtime.win-arm64.6.0.5.nupkg.sha512",
+    "C:\\Users\\DataBox\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\6.0.5\\microsoft.netcore.app.runtime.win-x86.6.0.5.nupkg.sha512",
+    "C:\\Users\\DataBox\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-arm64\\6.0.5\\microsoft.windowsdesktop.app.runtime.win-arm64.6.0.5.nupkg.sha512",
+    "C:\\Users\\DataBox\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\6.0.5\\microsoft.aspnetcore.app.runtime.win-x86.6.0.5.nupkg.sha512",
+    "C:\\Users\\DataBox\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\6.0.5\\microsoft.windowsdesktop.app.runtime.win-x86.6.0.5.nupkg.sha512"
   ],
   "logs": []
 }

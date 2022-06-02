@@ -30,17 +30,17 @@
     <AppXManifest Include="C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 %28Package%29\bin\x64\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-05-11T08:41:34.885</Modified>
+      <Modified>2022-06-02T11:00:47.579</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1\bin\x64\Debug\net6.0-windows10.0.19041.0\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-05-11T08:41:32.802</Modified>
+      <Modified>2022-06-02T11:00:44.785</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1\bin\x64\Debug\net6.0-windows10.0.19041.0\MainWindow.xbf">
       <PackagePath>MainWindow.xbf</PackagePath>
-      <Modified>2022-05-11T08:41:32.802</Modified>
+      <Modified>2022-06-02T11:00:44.785</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\Redist\Debug\x64\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -82,7 +82,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 %28Package%29\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-05-10T09:41:41.162</Modified>
+      <Modified>2022-05-30T10:39:23.782</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DataBox\.nuget\packages\bouncycastle.netcore\1.8.5\lib\netstandard2.0\BouncyCastle.Crypto.dll">
       <PackagePath>Try1\BouncyCastle.Crypto.dll</PackagePath>
@@ -204,37 +204,37 @@
       <PackagePath>Try1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll</PackagePath>
       <Modified>2019-11-15T08:54:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DataBox\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.24\lib\Microsoft.Windows.SDK.NET.dll">
+    <AppxPackagedFile Include="C:\Users\DataBox\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.25\lib\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Try1\Microsoft.Windows.SDK.NET.dll</PackagePath>
-      <Modified>2022-03-15T03:04:48.000</Modified>
+      <Modified>2022-04-13T00:46:34.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DataBox\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.24\lib\WinRT.Runtime.dll">
+    <AppxPackagedFile Include="C:\Users\DataBox\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.25\lib\WinRT.Runtime.dll">
       <PackagePath>Try1\WinRT.Runtime.dll</PackagePath>
-      <Modified>2022-03-15T03:04:48.000</Modified>
+      <Modified>2022-04-13T00:46:32.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1\bin\x64\Debug\net6.0-windows10.0.19041.0\Try1.deps.json">
       <PackagePath>Try1\Try1.deps.json</PackagePath>
-      <Modified>2022-05-10T09:41:38.928</Modified>
+      <Modified>2022-05-30T10:39:19.987</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1\obj\x64\Debug\net6.0-windows10.0.19041.0\App.xbf">
       <PackagePath>Try1\App.xbf</PackagePath>
-      <Modified>2022-05-11T08:41:32.802</Modified>
+      <Modified>2022-06-02T11:00:44.785</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1\obj\x64\Debug\net6.0-windows10.0.19041.0\MainWindow.xbf">
       <PackagePath>Try1\MainWindow.xbf</PackagePath>
-      <Modified>2022-05-11T08:41:32.802</Modified>
+      <Modified>2022-06-02T11:00:44.785</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1\obj\x64\Debug\net6.0-windows10.0.19041.0\apphost.exe">
       <PackagePath>Try1\Try1.exe</PackagePath>
-      <Modified>2022-05-11T08:41:33.076</Modified>
+      <Modified>2022-06-02T11:00:45.113</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1\bin\x64\Debug\net6.0-windows10.0.19041.0\Try1.runtimeconfig.json">
       <PackagePath>Try1\Try1.runtimeconfig.json</PackagePath>
-      <Modified>2022-05-10T09:41:39.113</Modified>
+      <Modified>2022-05-30T08:00:21.324</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1\bin\x64\Debug\net6.0-windows10.0.19041.0\Try1.dll">
       <PackagePath>Try1\Try1.dll</PackagePath>
-      <Modified>2022-05-11T08:41:33.065</Modified>
+      <Modified>2022-06-02T11:00:45.093</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

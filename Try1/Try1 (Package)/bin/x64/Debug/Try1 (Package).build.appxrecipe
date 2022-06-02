@@ -154,10 +154,10 @@
     <AppxPackagedFile Include="C:\Users\DataBox\.nuget\packages\system.windows.extensions\4.7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll">
       <PackagePath>Try1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DataBox\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.24\lib\Microsoft.Windows.SDK.NET.dll">
+    <AppxPackagedFile Include="C:\Users\DataBox\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.25\lib\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Try1\Microsoft.Windows.SDK.NET.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DataBox\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.24\lib\WinRT.Runtime.dll">
+    <AppxPackagedFile Include="C:\Users\DataBox\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.25\lib\WinRT.Runtime.dll">
       <PackagePath>Try1\WinRT.Runtime.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1\bin\x64\Debug\net6.0-windows10.0.19041.0\Try1.deps.json">

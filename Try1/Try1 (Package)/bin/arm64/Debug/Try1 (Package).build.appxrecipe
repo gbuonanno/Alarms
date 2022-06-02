@@ -10,59 +10,71 @@
     <PackageArchitecture>arm64</PackageArchitecture>
     <PackageIdentityName>68755889-ec26-4126-92d7-0c65a705b2e5</PackageIdentityName>
     <PackageIdentityPublisher>CN=DataBox</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\DataBox\source\repos\Try1\Try1\Try1 %28Package%29\obj\arm64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 %28Package%29\obj\arm64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\DataBox\source\repos\Try1\Try1\Try1 %28Package%29\bin\arm64\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 %28Package%29\bin\arm64\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\DataBox\source\repos\Try1\Try1\Try1 %28Package%29\bin\arm64\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 %28Package%29\bin\arm64\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Try1\Try1\Try1\bin\arm64\Debug\net6.0-windows10.0.19041.0\App.xbf">
-      <PackagePath>App.xbf</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Try1\Try1\Try1\bin\arm64\Debug\net6.0-windows10.0.19041.0\MainWindow.xbf">
-      <PackagePath>MainWindow.xbf</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\Redist\Debug\arm64\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Try1\Try1\Try1 %28Package%29\Images\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 %28Package%29\Images\SplashScreen.scale-200.png">
       <PackagePath>Images\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Try1\Try1\Try1 %28Package%29\Images\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 %28Package%29\Images\LockScreenLogo.scale-200.png">
       <PackagePath>Images\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Try1\Try1\Try1 %28Package%29\Images\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 %28Package%29\Images\Square150x150Logo.scale-200.png">
       <PackagePath>Images\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Try1\Try1\Try1 %28Package%29\Images\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 %28Package%29\Images\Square44x44Logo.scale-200.png">
       <PackagePath>Images\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Try1\Try1\Try1 %28Package%29\Images\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 %28Package%29\Images\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Try1\Try1\Try1 %28Package%29\Images\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 %28Package%29\Images\StoreLogo.png">
       <PackagePath>Images\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Try1\Try1\Try1 %28Package%29\Images\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 %28Package%29\Images\Wide310x150Logo.scale-200.png">
       <PackagePath>Images\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Try1\Try1\Try1 %28Package%29\bin\arm64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 %28Package%29\bin\arm64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DataBox\.nuget\packages\bouncycastle.netcore\1.8.5\lib\netstandard2.0\BouncyCastle.Crypto.dll">
+      <PackagePath>Try1\BouncyCastle.Crypto.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DataBox\.nuget\packages\google.protobuf\3.19.4\lib\net5.0\Google.Protobuf.dll">
+      <PackagePath>Try1\Google.Protobuf.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DataBox\.nuget\packages\k4os.compression.lz4\1.2.6\lib\netstandard2.0\K4os.Compression.LZ4.dll">
+      <PackagePath>Try1\K4os.Compression.LZ4.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DataBox\.nuget\packages\k4os.compression.lz4.streams\1.2.6\lib\netstandard2.1\K4os.Compression.LZ4.Streams.dll">
+      <PackagePath>Try1\K4os.Compression.LZ4.Streams.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DataBox\.nuget\packages\k4os.hash.xxhash\1.0.6\lib\netstandard2.0\K4os.Hash.xxHash.dll">
+      <PackagePath>Try1\K4os.Hash.xxHash.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DataBox\.nuget\packages\microsoft.win32.systemevents\4.7.0\lib\netstandard2.0\Microsoft.Win32.SystemEvents.dll">
+      <PackagePath>Try1\Microsoft.Win32.SystemEvents.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DataBox\.nuget\packages\microsoft.windowsappsdk\1.0.0\lib\net5.0-windows10.0.18362.0\Microsoft.InteractiveExperiences.Projection.dll">
       <PackagePath>Try1\Microsoft.InteractiveExperiences.Projection.dll</PackagePath>
@@ -88,6 +100,33 @@
     <AppxPackagedFile Include="C:\Users\DataBox\.nuget\packages\microsoft.windowsappsdk\1.0.0\lib\net5.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Try1\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DataBox\.nuget\packages\mysql.data\8.0.29\lib\net6.0\MySql.Data.dll">
+      <PackagePath>Try1\MySql.Data.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DataBox\.nuget\packages\mysql.data\8.0.29\lib\net6.0\Ubiety.Dns.Core.dll">
+      <PackagePath>Try1\Ubiety.Dns.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DataBox\.nuget\packages\mysql.data\8.0.29\lib\net6.0\ZstdNet.dll">
+      <PackagePath>Try1\ZstdNet.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DataBox\.nuget\packages\system.configuration.configurationmanager\4.4.1\lib\netstandard2.0\System.Configuration.ConfigurationManager.dll">
+      <PackagePath>Try1\System.Configuration.ConfigurationManager.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DataBox\.nuget\packages\system.drawing.common\4.7.0\lib\netstandard2.0\System.Drawing.Common.dll">
+      <PackagePath>Try1\System.Drawing.Common.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DataBox\.nuget\packages\system.security.cryptography.protecteddata\4.4.0\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll">
+      <PackagePath>Try1\System.Security.Cryptography.ProtectedData.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DataBox\.nuget\packages\system.security.permissions\4.7.0\lib\netcoreapp3.0\System.Security.Permissions.dll">
+      <PackagePath>Try1\System.Security.Permissions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DataBox\.nuget\packages\system.windows.extensions\4.7.0\lib\netcoreapp3.0\System.Windows.Extensions.dll">
+      <PackagePath>Try1\System.Windows.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DataBox\.nuget\packages\microsoft.win32.systemevents\4.7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll">
+      <PackagePath>Try1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DataBox\.nuget\packages\microsoft.windowsappsdk\1.0.0\runtimes\win10-arm64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Try1\runtimes\win10-arm64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
     </AppxPackagedFile>
@@ -97,28 +136,40 @@
     <AppxPackagedFile Include="C:\Users\DataBox\.nuget\packages\microsoft.windowsappsdk\1.0.0\runtimes\win10-x86\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Try1\runtimes\win10-x86\native\Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DataBox\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.22\lib\Microsoft.Windows.SDK.NET.dll">
+    <AppxPackagedFile Include="C:\Users\DataBox\.nuget\packages\system.drawing.common\4.7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll">
+      <PackagePath>Try1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DataBox\.nuget\packages\system.drawing.common\4.7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll">
+      <PackagePath>Try1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DataBox\.nuget\packages\system.security.cryptography.protecteddata\4.4.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll">
+      <PackagePath>Try1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DataBox\.nuget\packages\system.windows.extensions\4.7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll">
+      <PackagePath>Try1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DataBox\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.25\lib\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Try1\Microsoft.Windows.SDK.NET.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DataBox\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.22\lib\WinRT.Runtime.dll">
+    <AppxPackagedFile Include="C:\Users\DataBox\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.25\lib\WinRT.Runtime.dll">
       <PackagePath>Try1\WinRT.Runtime.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Try1\Try1\Try1\bin\arm64\Debug\net6.0-windows10.0.19041.0\Try1.deps.json">
+    <AppxPackagedFile Include="C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1\bin\arm64\Debug\net6.0-windows10.0.19041.0\Try1.deps.json">
       <PackagePath>Try1\Try1.deps.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Try1\Try1\Try1\obj\arm64\Debug\net6.0-windows10.0.19041.0\App.xbf">
+    <AppxPackagedFile Include="C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1\obj\arm64\Debug\net6.0-windows10.0.19041.0\App.xbf">
       <PackagePath>Try1\App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Try1\Try1\Try1\obj\arm64\Debug\net6.0-windows10.0.19041.0\MainWindow.xbf">
+    <AppxPackagedFile Include="C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1\obj\arm64\Debug\net6.0-windows10.0.19041.0\MainWindow.xbf">
       <PackagePath>Try1\MainWindow.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Try1\Try1\Try1\obj\arm64\Debug\net6.0-windows10.0.19041.0\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1\obj\arm64\Debug\net6.0-windows10.0.19041.0\apphost.exe">
       <PackagePath>Try1\Try1.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Try1\Try1\Try1\bin\arm64\Debug\net6.0-windows10.0.19041.0\Try1.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1\bin\arm64\Debug\net6.0-windows10.0.19041.0\Try1.runtimeconfig.json">
       <PackagePath>Try1\Try1.runtimeconfig.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DataBox\source\repos\Try1\Try1\Try1\bin\arm64\Debug\net6.0-windows10.0.19041.0\Try1.dll">
+    <AppxPackagedFile Include="C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1\bin\arm64\Debug\net6.0-windows10.0.19041.0\Try1.dll">
       <PackagePath>Try1\Try1.dll</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

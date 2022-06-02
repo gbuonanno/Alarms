@@ -10,6 +10,8 @@ using System.Net.Mail;
 using System.Diagnostics;
 using MySql.Data.MySqlClient;
 using System.Collections.Generic;
+using Microsoft.Office.Interop.Excel;
+
 
 
 
@@ -23,7 +25,7 @@ namespace Try1
     /// <summary>
     /// An empty window that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class MainWindow : Window
+    public sealed partial class MainWindow : Microsoft.UI.Xaml.Window
     {
 
         //MySqlConnection sqlConn = new MySqlConnection();
@@ -44,13 +46,15 @@ namespace Try1
         string passDB = "SUNRISE";
         string nameDB = "test";
         string tableDB = "test.error";
+        string tableAlarms = "test.alarms";
+        string tableErrors = "test.newerror";
 
         public MainWindow()
         {
             this.InitializeComponent();
             upLoadData();
             AnalizeData();
-
+            
 
         }
 
@@ -68,13 +72,60 @@ namespace Try1
 
 
         //}
+        static List<Errors_Excel> ReadExcel()
+        {
+            Microsoft.Office.Interop.Excel.Application ExcelApp = new Microsoft.Office.Interop.Excel.Application();
+            List<Errors_Excel> Excel_List = new List<Errors_Excel>();
+            if (ExcelApp != null) {
 
-       
+                string path_excel = @"C:\Users\DataBox\source\repos\Error_List_Template.xlsx";
+                //_Application excel = new _Excel.Aplication();
+                Microsoft.Office.Interop.Excel.Workbook wb = ExcelApp.Workbooks.Open(path_excel
+                    , 0, true, 5, "", "", true, Microsoft.Office.Interop.Excel.XlPlatform.xlWindows, "\t", false, false, 0, true, 1, 0);
+                Microsoft.Office.Interop.Excel.Worksheet ws = (Microsoft.Office.Interop.Excel.Worksheet) wb.Sheets[1];
+                Microsoft.Office.Interop.Excel.Range range = ws.UsedRange;
+                int rowCount = range.Rows.Count;
+                int colCount = range.Columns.Count;
+
+                string Key_string = "";
+                string Message = "";
+                string Action = "";
+                string Stop_Time_string = "";
+             
+
+                for (int i = 2; i <= rowCount; i++)
+                {
+                    Microsoft.Office.Interop.Excel.Range ExcelKey = (ws.Cells[i, 1] as Microsoft.Office.Interop.Excel.Range);
+                    Key_string = ExcelKey.Value.ToString();
+                    int Key = Int32.Parse(Key_string);
+                   
+                    Microsoft.Office.Interop.Excel.Range ExcelMessage = (ws.Cells[i, 2] as Microsoft.Office.Interop.Excel.Range);
+                    Message = ExcelMessage.Value.ToString();
+                    Microsoft.Office.Interop.Excel.Range ExcelAction = (ws.Cells[i, 3] as Microsoft.Office.Interop.Excel.Range);
+                    Action = ExcelAction.Value.ToString();
+                    Microsoft.Office.Interop.Excel.Range ExcelTime = (ws.Cells[i, 4] as Microsoft.Office.Interop.Excel.Range);
+                    Stop_Time_string = ExcelTime.Value.ToString();
+                    int Stop_Time = Int32.Parse(Stop_Time_string);
+
+
+
+                    //do anything
+
+                    Excel_List.Add(new Errors_Excel() { Key = Key, Message = Message, Action = Action, Stop_Time = Stop_Time });
+                }
+            }
+
+
+            return Excel_List;
+        }
 
         public void upLoadData()
         {
-            System.Diagnostics.Debug.WriteLine("llamada a la función");
-            //var item = (sender as ListView).SelectedItem as Error;
+            
+            //var item = (sender as listview).selecteditem as error;
+          
+
+            List<Errors_Excel> Excel_List = ReadExcel();
             List<Error> Alarms_list = new List<Error>();
             try
             {
@@ -90,27 +141,35 @@ namespace Try1
                     using (var cmd = conn.CreateCommand())
                     {
                        
-                        cmd.CommandText = "select * from " + tableDB;
+                        cmd.CommandText = "select * from " + tableAlarms;
                         using (var reader = cmd.ExecuteReader())
                         {
                             while (reader.Read())
                             {
                     
                                 Error error = new Error();
-                                error.ID = reader.GetString(0);
-                                error.Message = reader.GetString(1);
-                                error.Level = reader.GetString(2);
-                                error.Action = reader.GetString(3);
-                                error.Time = reader.GetDouble(4);
-                                error.Date = reader.GetDateTime(5);
-                                Alarms_list.Add(error);
+                                error.ID = reader.GetInt32(0);
+                                error.Key = reader.GetInt32(1);
+                                error.Date= reader.GetDateTime(2).ToString("yyyy-MM-dd HH:mm:ss");   
+                                System.Diagnostics.Debug.WriteLine("FECHA:"+error.Date);
 
-                                
-                                System.Diagnostics.Debug.WriteLine("column" + error.ID + error.Message + error.Level + error.Action);
-                                
+                                for (int i =0; i< Excel_List.Count; i++)
+                                {
+
+                                    if (error.Key == Excel_List[i].Key)
+                                    {
+                                        error.Message=Excel_List[i].Message;
+                                        error.Action = Excel_List[i].Action;
+                                        error.Time = Excel_List[i].Stop_Time;
+
+                                    }
+  
+                                }
+
+                                Alarms_list.Add(error);
+  
                             }
                             ListViewError.ItemsSource = Alarms_list;
-
 
 
                         }
@@ -121,14 +180,42 @@ namespace Try1
             {
                 System.Diagnostics.Debug.WriteLine("error en la lectura de crankshaft de mysql");
             }
+
+
+           for( int j = 0; j< Alarms_list.Count; j++) 
+            { 
+            try
+            {
+               
+                string MyConnection2 = "datasource=localhost;port=3306;username=root;password=SUNRISE";
+                string query= "insert into test.newerror(iderror,message,level,action,time,Date,Code) " +
+                    "values('" + Alarms_list[j].ID + "','" + Alarms_list[j].Message + "', '0','" + Alarms_list[j].Action + "','" + Alarms_list[j].Time + "','" + Alarms_list[j].Date + "','" + Alarms_list[j].Key + "');";
+                //string query = "insert into test.newerror(iderror,message,level,action,time,Date,Code) values('1','PRIMER ERROR','0','funciona','20','2022-07-08 10:13:00','2');";
+                MySqlConnection MyConn2 = new MySqlConnection(MyConnection2);
+                MySqlCommand MyCommand2 = new MySqlCommand(query, MyConn2);
+                MySqlDataReader MyReader2;
+
+                MyConn2.Open();
+                MyReader2 = MyCommand2.ExecuteReader();
+                while (MyReader2.Read()) { System.Diagnostics.Debug.WriteLine("EL PROGRAMA ENTRA AL WHILE"); }
+                MyConn2.Close();
+
+            }
+            catch (MySqlException ex)
+            {
+                System.Diagnostics.Debug.WriteLine("error en AÑADIR datos");
+            }
+            }
         }
+
+
 
         public void AnalizeData()
         {
+            //List<Errors_Excel> Excel_List = ReadExcel();
             System.Diagnostics.Debug.WriteLine("llamada a la función");
             List<Error_list> error_Lists = new List<Error_list>();
             int Code_count = 0;
-            
             try
             {
                 // conexión con el servidor local de mysql. el puerto es el 3360.
@@ -142,25 +229,25 @@ namespace Try1
 
                     using (var cmd = conn.CreateCommand())
                     {
-                     
 
-                        
-                        cmd.CommandText = "select * from " + tableDB;
+
+
+                        cmd.CommandText = "select * from " + tableErrors;
                         using (var reader = cmd.ExecuteReader())
                         {
                             while (reader.Read())
                             {
-                               
-                               
+
+
                                 //error_Lists.Add(new Error_list() { Message = reader.GetString(1), Time = reader.GetDouble(4), Count = 1 });
                                 int i = 0;
-                               // error_Lists.Add(new Error_list() { Time = reader.GetDouble(4) });
+                                // error_Lists.Add(new Error_list() { Time = reader.GetDouble(4) });
                                 //System.Diagnostics.Debug.WriteLine("column" + error_Lists[i].Time);
                                 i++;
                                 String Message_Entry = reader.GetString(1);
 
                                 bool found = false;
-                                
+
                                 int size = error_Lists.Count;
                                 for (int k = 0; k < size; k++)
                                 {
@@ -173,22 +260,21 @@ namespace Try1
                                         found = true;
                                     }
                                 }
-                                if( found == false)
+                                if (found == false)
                                 {
                                     // Temporary code counter, should be added from the SQL data base
-                                 Code_count++;
-                                 error_Lists.Add(new Error_list() { Message = reader.GetString(1), Time = reader.GetDouble(4), Count = 1 , Level =1 ,Code= Code_count});
+                                    Code_count++;
+                                    error_Lists.Add(new Error_list() { Message = reader.GetString(1), Time = reader.GetDouble(4), Count = 1, Level = 1, Code = reader.GetInt32(6) });
                                 }
-                                  
+
 
                                 ;
                             }
                             ListViewErrors.ItemsSource = error_Lists;
-                            
 
 
-                            // se introducen en la listview crankshaftlist todas los items (crnks) generados (tantos items como filas en la tabla anterior).
-                            // in the listview crankshaftlist we add all of the items (crnks) generated (as many row as the previous table).
+
+                           
                             Console.WriteLine();
                             foreach (Error_list aPart in error_Lists)
                             {
@@ -203,6 +289,81 @@ namespace Try1
             {
                 System.Diagnostics.Debug.WriteLine("error en la lectura de crankshaft de mysql");
             }
+
+            //try
+            //{
+            //    // conexión con el servidor local de mysql. el puerto es el 3360.
+            //    // connection with the local server of mysql. port 3360
+
+            //    var connstr = "server=" + serverDB + ";uid=" + idDB + ";pwd=" + passDB + ";database=" + nameDB;
+
+            //    using (var conn = new MySqlConnection(connstr))
+            //    {
+            //        conn.Open();
+
+            //        using (var cmd = conn.CreateCommand())
+            //        {
+
+
+
+            //            cmd.CommandText = "select * from " + tableDB;
+            //            using (var reader = cmd.ExecuteReader())
+            //            {
+            //                while (reader.Read())
+            //                {
+
+
+            //                    //error_Lists.Add(new Error_list() { Message = reader.GetString(1), Time = reader.GetDouble(4), Count = 1 });
+            //                    int i = 0;
+            //                   // error_Lists.Add(new Error_list() { Time = reader.GetDouble(4) });
+            //                    //System.Diagnostics.Debug.WriteLine("column" + error_Lists[i].Time);
+            //                    i++;
+            //                    String Message_Entry = reader.GetString(1);
+
+            //                    bool found = false;
+
+            //                    int size = error_Lists.Count;
+            //                    for (int k = 0; k < size; k++)
+            //                    {
+            //                        if (error_Lists[k].Message == Message_Entry)
+
+            //                        {
+            //                            System.Diagnostics.Debug.WriteLine("Entrada al if");
+            //                            error_Lists[k].Count++;
+            //                            //error_Lists.Find(x => x.Message.Contains(Message_Entry)).Count = error_Lists.Find(x => x.Message.Contains(Message_Entry)).Count + 1;
+            //                            found = true;
+            //                        }
+            //                    }
+            //                    if( found == false)
+            //                    {
+            //                        // Temporary code counter, should be added from the SQL data base
+            //                     Code_count++;
+            //                     error_Lists.Add(new Error_list() { Message = reader.GetString(1), Time = reader.GetDouble(4), Count = 1 , Level =1 ,Code= Code_count});
+            //                    }
+
+
+            //                    ;
+            //                }
+            //                ListViewErrors.ItemsSource = error_Lists;
+
+
+
+            //                // se introducen en la listview crankshaftlist todas los items (crnks) generados (tantos items como filas en la tabla anterior).
+            //                // in the listview crankshaftlist we add all of the items (crnks) generated (as many row as the previous table).
+            //                Console.WriteLine();
+            //                foreach (Error_list aPart in error_Lists)
+            //                {
+            //                    System.Diagnostics.Debug.WriteLine(aPart.Count);
+            //                }
+
+            //            }
+            //        }
+            //    }
+            //}
+            //catch (MySqlException ex)
+            //{
+            //    System.Diagnostics.Debug.WriteLine("error en la lectura de crankshaft de mysql");
+            //}
 
             // Calculo de Volumen de tiempo de para
             double Stop_Time = 0;
@@ -265,28 +426,31 @@ namespace Try1
             {
                 System.Diagnostics.Debug.WriteLine(aPart.Level);
             }
-            // Implementation of Email
+            Send_Mail(Total_errors3);
+        }
+
+        public void Send_Mail( int Total_Errors)
+        {
+            // Implementation of Email using system.net.mail for google
             string Mail_from = "linqtestemail2022@gmail.com";
             string Mail_password = "SUNRISE2022";
-            string Mail_to= "linqtestemail2022@gmail.com";
+            string Mail_to = "linqtestemail2022@gmail.com";
             using (MailMessage mail = new MailMessage())
             {
                 mail.From = new MailAddress(Mail_from);
                 mail.To.Add(Mail_to);
                 mail.Subject = "Test Sending mail";
-                mail.Body = "<h1>  Informe de alarmas </h1> <br> <h2> El total de errores nivel 3 es " + Total_errors3 + "<h2>"; 
+                mail.Body = "<h1>  Informe de alarmas </h1> <br> <h2> El total de errores nivel 3 es " + Total_Errors + "<h2>";
                 mail.IsBodyHtml = true;
-                using (SmtpClient smtp = new SmtpClient("smtp.gmail.com",587))
+                using (SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587))
                 {
                     smtp.UseDefaultCredentials = false;
                     smtp.EnableSsl = true;
-                    smtp.Credentials = new System.Net.NetworkCredential(Mail_from,Mail_password);
+                    smtp.Credentials = new System.Net.NetworkCredential(Mail_from, Mail_password);
                     smtp.Send(mail);
-                   
+
                 }
             }
-
-
         }
        
     }

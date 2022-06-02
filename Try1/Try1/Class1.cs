@@ -8,20 +8,21 @@ namespace Try1
 {
     class Error
     {
-        public string ID { get; set; }
+        public int ID { get; set; }
+        public int Key { get; set; } 
         public String Message { get; set; }
         public String Level { get; set; }
         public String Action { get; set; }
         public Double Time { get; set; }
 
-        public DateTime Date { get; set; }
-
-        
+        public string Date { get; set; }
 
 
     }
     class Error_list
+
     {
+        
         public String Message { get; set; }
         public Double Time { get; set; }
         public int Count { get; set; }
@@ -36,5 +37,17 @@ namespace Try1
         }
 
     }
+
+    class Errors_Excel
+    {
+        public int Key { get; set; }
+
+        public String Message { get; set; }
+
+        public String Action { get; set; }  
+        
+        public int Stop_Time { get; set; }   
+    }
+    
 }
 

@@ -64,6 +64,14 @@
                                 FontSize="20"
                                 FontWeight="Normal"
                                 Foreground="#2E3A47"
+                                Text="Number" />
+                            <TextBlock
+                                Width="100"
+                                Margin="30,10,0,0"
+                                FontFamily="Segoe UI"
+                                FontSize="20"
+                                FontWeight="Normal"
+                                Foreground="#2E3A47"
                                 Text="ID" />
                             <TextBlock
                                 Width="300"
@@ -73,17 +81,9 @@
                                 FontWeight="Normal"
                                 Foreground="#2E3A47"
                                 Text="Message" />
+                            
                             <TextBlock
-                                Width="100"
-                                Margin="0,10,0,0"
-                                HorizontalAlignment="Right"
-                                FontFamily="Segoe UI"
-                                FontSize="20"
-                                FontWeight="Normal"
-                                Foreground="#2E3A47"
-                                Text="Level" />
-                            <TextBlock
-                                Width="500"
+                                Width="800"
                                 Margin="0,10,0,0"
                                 FontFamily="Segoe UI"
                                 FontSize="20"
@@ -131,6 +131,15 @@
                                 Foreground="#2E3A47"
                                                    />
                             <TextBlock x:ConnectionId='22'
+                                Name="Key_Field"
+                                Width="100"
+                                Margin="20,0,0,0"
+                                FontFamily="Segoe UI"
+                                FontSize="20"
+                                FontWeight="Normal"
+                                Foreground="#2E3A47"
+                                                    />
+                            <TextBlock x:ConnectionId='23'
                                 Name= "Messsage_Field"
                                 Width="300"
                                 Margin="20,0,0,0"
@@ -139,17 +148,10 @@
                                 FontWeight="Normal"
                                 Foreground="#2E3A47"
                                                         />
-                            <TextBlock x:ConnectionId='23'
-                                Name="State_Field"
-                                Width="100"
-                                FontFamily="Segoe UI"
-                                FontSize="20"
-                                FontWeight="SemiBold"
-                                Foreground="#FF2D55"    
-                                                      />
+                            
                             <TextBlock x:ConnectionId='24'
                                 Name="Action_Field"
-                                Width="500"
+                                Width="800"
                                 FontFamily="Segoe UI"
                                 FontSize="20"
                                 FontWeight="Light"

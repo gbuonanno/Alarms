@@ -37,10 +37,10 @@
   <build:Metadata>
     <build:Item Name="Microsoft.Build.DesktopBridge.Tasks.dll" Version="4.6.30319.200" />
     <build:Item Name="TargetFrameworkMoniker" Value=".NETFramework,Version=v4.5.1" />
-    <build:Item Name="VisualStudio" Version="16.0" />
-    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2019" />
+    <build:Item Name="VisualStudio" Version="17.0" />
+    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2022" />
     <build:Item Name="OperatingSystem" Version="10.0.19041.1 (WinBuild.160101.0800)" />
-    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="16.0.31910.33" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="17.0.31912.81" />
     <build:Item Name="ProjectGUID" Value="8021c39c-9673-4232-8840-8bd976e4549b" />
     <build:Item Name="Microsoft.UniversalCRT.Debug" Version="10.0.19041.0" />
     <build:Item Name="makepri.exe" Version="10.0.22000.194 (WinBuild.160101.0800)" />

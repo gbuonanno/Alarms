@@ -43,3 +43,65 @@ C:\Users\DataBox\source\repos\Try1\Try1\Try1 (Package)\obj\arm64\Debug\qualifier
 C:\Users\DataBox\source\repos\Try1\Try1\Try1 (Package)\obj\arm64\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\DataBox\source\repos\Try1\Try1\Try1 (Package)\obj\arm64\Debug\ProjectArchitectures.txt
 C:\Users\DataBox\source\repos\Try1\Try1\Try1 (Package)\obj\arm64\Debug\Try1 (Package).wapproj.LastBuild.txt
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\bin\arm64\Debug\Try1\BouncyCastle.Crypto.dll
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\bin\arm64\Debug\Try1\Google.Protobuf.dll
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\bin\arm64\Debug\Try1\K4os.Compression.LZ4.dll
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\bin\arm64\Debug\Try1\K4os.Compression.LZ4.Streams.dll
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\bin\arm64\Debug\Try1\K4os.Hash.xxHash.dll
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\bin\arm64\Debug\Try1\Microsoft.Win32.SystemEvents.dll
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\bin\arm64\Debug\Try1\Microsoft.InteractiveExperiences.Projection.dll
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\bin\arm64\Debug\Try1\Microsoft.WinUI.dll
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\bin\arm64\Debug\Try1\Microsoft.Windows.AppLifecycle.Projection.dll
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\bin\arm64\Debug\Try1\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\bin\arm64\Debug\Try1\Microsoft.Windows.ApplicationModel.Resources.Projection.dll
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\bin\arm64\Debug\Try1\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\bin\arm64\Debug\Try1\Microsoft.Windows.System.Power.Projection.dll
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\bin\arm64\Debug\Try1\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\bin\arm64\Debug\Try1\MySql.Data.dll
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\bin\arm64\Debug\Try1\Ubiety.Dns.Core.dll
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\bin\arm64\Debug\Try1\ZstdNet.dll
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\bin\arm64\Debug\Try1\System.Configuration.ConfigurationManager.dll
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\bin\arm64\Debug\Try1\System.Drawing.Common.dll
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\bin\arm64\Debug\Try1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\bin\arm64\Debug\Try1\System.Security.Permissions.dll
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\bin\arm64\Debug\Try1\System.Windows.Extensions.dll
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\bin\arm64\Debug\Try1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\bin\arm64\Debug\Try1\runtimes\win10-arm64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\bin\arm64\Debug\Try1\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\bin\arm64\Debug\Try1\runtimes\win10-x86\native\Microsoft.WindowsAppRuntime.Bootstrap.dll
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\bin\arm64\Debug\Try1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\bin\arm64\Debug\Try1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\bin\arm64\Debug\Try1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\bin\arm64\Debug\Try1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\bin\arm64\Debug\Try1\Microsoft.Windows.SDK.NET.dll
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\bin\arm64\Debug\Try1\WinRT.Runtime.dll
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\bin\arm64\Debug\Try1\Try1.deps.json
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\bin\arm64\Debug\Try1\App.xbf
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\bin\arm64\Debug\Try1\MainWindow.xbf
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\bin\arm64\Debug\Try1\Try1.exe
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\bin\arm64\Debug\Try1\Google.Protobuf.pdb
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\bin\arm64\Debug\Try1\Try1.runtimeconfig.json
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\bin\arm64\Debug\Try1\Try1.dll
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\bin\arm64\Debug\Try1\Try1.pdb
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\bin\arm64\Debug\resources.pri
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\bin\arm64\Debug\AppxManifest.xml
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\bin\arm64\Debug\Try1 (Package).build.appxrecipe
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\obj\arm64\Debug\Try1 (Package).wapproj.AssemblyReference.cache
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\obj\arm64\Debug\Try1 (Package).wapproj.CoreCompileInputs.cache
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\obj\arm64\Debug\priconfig.xml
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\obj\arm64\Debug\priconfig.xml.intermediate
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\obj\arm64\Debug\unfiltered.layout.resfiles
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\obj\arm64\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\obj\arm64\Debug\filtered.layout.resfiles
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\obj\arm64\Debug\filtered.layout.resfiles.intermediate
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\obj\arm64\Debug\excluded.layout.resfiles
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\obj\arm64\Debug\excluded.layout.resfiles.intermediate
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\obj\arm64\Debug\resources.resfiles
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\obj\arm64\Debug\resources.resfiles.intermediate
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\obj\arm64\Debug\pri.resfiles
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\obj\arm64\Debug\pri.resfiles.intermediate
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\obj\arm64\Debug\qualifiers.txt
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\obj\arm64\Debug\qualifiers.txt.intermediate
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\obj\arm64\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\obj\arm64\Debug\ProjectArchitectures.txt
+C:\Users\DataBox\Source\Repos\Alarm\Try1\Try1 (Package)\obj\arm64\Debug\Try1 (Package).wapproj.LastBuild.txt

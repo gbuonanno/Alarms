@@ -11,21 +11,21 @@
           "Microsoft.Windows.SDK.BuildTools": "10.0.22000.194",
           "Microsoft.WindowsAppSDK": "1.0.0",
           "MySql.Data": "8.0.29",
-          "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.24"
+          "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.25"
         },
         "runtime": {
           "Try1.dll": {}
         }
       },
-      "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.24": {
+      "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.25": {
         "runtime": {
           "Microsoft.Windows.SDK.NET.dll": {
             "assemblyVersion": "10.0.19041.24",
-            "fileVersion": "10.0.19041.24"
+            "fileVersion": "10.0.19041.25"
           },
           "WinRT.Runtime.dll": {
             "assemblyVersion": "1.6.0.0",
-            "fileVersion": "1.6.1.38391"
+            "fileVersion": "1.6.2.38681"
           }
         }
       },
@@ -289,7 +289,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.24": {
+    "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.25": {
       "type": "runtimepack",
       "serviceable": false,
       "sha512": ""
