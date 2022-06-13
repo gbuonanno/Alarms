@@ -11,7 +11,8 @@ using System.Diagnostics;
 using MySql.Data.MySqlClient;
 using System.Collections.Generic;
 using Microsoft.Office.Interop.Excel;
-
+using System.Timers;
+using Windows.Foundation;
 
 
 
@@ -48,12 +49,13 @@ namespace Try1
         string tableDB = "test.error";
         string tableAlarms = "test.alarms";
         string tableErrors = "test.newerror";
-
+        private static Timer aTimer = new System.Timers.Timer(2 * 1000); // How often will the tasks be updated
         public MainWindow()
         {
             this.InitializeComponent();
-            upLoadData();
+           upLoadData();
             AnalizeData();
+           
             
 
         }
@@ -72,6 +74,26 @@ namespace Try1
 
 
         //}
+        //private void CheckAlarms()
+        //{
+        //    aTimer.Elapsed += new ElapsedEventHandler(OnTimedEvent);
+
+        //    aTimer.Start();
+        //}
+
+        //private void OnTimedEvent(object source, ElapsedEventArgs e)
+        //{
+        //    DateTimeOffset horaLectura = DateTimeOffset.Now;
+
+
+
+        //    DispatcherQueue.TryEnqueue(() =>
+        //    {
+        //        upLoadData();
+        //        AnalizeData();
+
+        //    });
+        //}
         static List<Errors_Excel> ReadExcel()
         {
             Microsoft.Office.Interop.Excel.Application ExcelApp = new Microsoft.Office.Interop.Excel.Application();
@@ -79,7 +101,7 @@ namespace Try1
             if (ExcelApp != null) {
 
                 string path_excel = @"C:\Users\DataBox\source\repos\Error_List_Template.xlsx";
-                //_Application excel = new _Excel.Aplication();
+                
                 Microsoft.Office.Interop.Excel.Workbook wb = ExcelApp.Workbooks.Open(path_excel
                     , 0, true, 5, "", "", true, Microsoft.Office.Interop.Excel.XlPlatform.xlWindows, "\t", false, false, 0, true, 1, 0);
                 Microsoft.Office.Interop.Excel.Worksheet ws = (Microsoft.Office.Interop.Excel.Worksheet) wb.Sheets[1];
@@ -106,10 +128,6 @@ namespace Try1
                     Microsoft.Office.Interop.Excel.Range ExcelTime = (ws.Cells[i, 4] as Microsoft.Office.Interop.Excel.Range);
                     Stop_Time_string = ExcelTime.Value.ToString();
                     int Stop_Time = Int32.Parse(Stop_Time_string);
-
-
-
-                    //do anything
 
                     Excel_List.Add(new Errors_Excel() { Key = Key, Message = Message, Action = Action, Stop_Time = Stop_Time });
                 }
@@ -190,7 +208,6 @@ namespace Try1
                 string MyConnection2 = "datasource=localhost;port=3306;username=root;password=SUNRISE";
                 string query= "insert into test.newerror(iderror,message,level,action,time,Date,Code) " +
                     "values('" + Alarms_list[j].ID + "','" + Alarms_list[j].Message + "', '0','" + Alarms_list[j].Action + "','" + Alarms_list[j].Time + "','" + Alarms_list[j].Date + "','" + Alarms_list[j].Key + "');";
-                //string query = "insert into test.newerror(iderror,message,level,action,time,Date,Code) values('1','PRIMER ERROR','0','funciona','20','2022-07-08 10:13:00','2');";
                 MySqlConnection MyConn2 = new MySqlConnection(MyConnection2);
                 MySqlCommand MyCommand2 = new MySqlCommand(query, MyConn2);
                 MySqlDataReader MyReader2;
@@ -290,80 +307,7 @@ namespace Try1
                 System.Diagnostics.Debug.WriteLine("error en la lectura de crankshaft de mysql");
             }
 
-            //try
-            //{
-            //    // conexión con el servidor local de mysql. el puerto es el 3360.
-            //    // connection with the local server of mysql. port 3360
-
-            //    var connstr = "server=" + serverDB + ";uid=" + idDB + ";pwd=" + passDB + ";database=" + nameDB;
-
-            //    using (var conn = new MySqlConnection(connstr))
-            //    {
-            //        conn.Open();
-
-            //        using (var cmd = conn.CreateCommand())
-            //        {
-
-
-
-            //            cmd.CommandText = "select * from " + tableDB;
-            //            using (var reader = cmd.ExecuteReader())
-            //            {
-            //                while (reader.Read())
-            //                {
-
-
-            //                    //error_Lists.Add(new Error_list() { Message = reader.GetString(1), Time = reader.GetDouble(4), Count = 1 });
-            //                    int i = 0;
-            //                   // error_Lists.Add(new Error_list() { Time = reader.GetDouble(4) });
-            //                    //System.Diagnostics.Debug.WriteLine("column" + error_Lists[i].Time);
-            //                    i++;
-            //                    String Message_Entry = reader.GetString(1);
-
-            //                    bool found = false;
-
-            //                    int size = error_Lists.Count;
-            //                    for (int k = 0; k < size; k++)
-            //                    {
-            //                        if (error_Lists[k].Message == Message_Entry)
-
-            //                        {
-            //                            System.Diagnostics.Debug.WriteLine("Entrada al if");
-            //                            error_Lists[k].Count++;
-            //                            //error_Lists.Find(x => x.Message.Contains(Message_Entry)).Count = error_Lists.Find(x => x.Message.Contains(Message_Entry)).Count + 1;
-            //                            found = true;
-            //                        }
-            //                    }
-            //                    if( found == false)
-            //                    {
-            //                        // Temporary code counter, should be added from the SQL data base
-            //                     Code_count++;
-            //                     error_Lists.Add(new Error_list() { Message = reader.GetString(1), Time = reader.GetDouble(4), Count = 1 , Level =1 ,Code= Code_count});
-            //                    }
-
-
-            //                    ;
-            //                }
-            //                ListViewErrors.ItemsSource = error_Lists;
-
-
-
-            //                // se introducen en la listview crankshaftlist todas los items (crnks) generados (tantos items como filas en la tabla anterior).
-            //                // in the listview crankshaftlist we add all of the items (crnks) generated (as many row as the previous table).
-            //                Console.WriteLine();
-            //                foreach (Error_list aPart in error_Lists)
-            //                {
-            //                    System.Diagnostics.Debug.WriteLine(aPart.Count);
-            //                }
-
-            //            }
-            //        }
-            //    }
-            //}
-            //catch (MySqlException ex)
-            //{
-            //    System.Diagnostics.Debug.WriteLine("error en la lectura de crankshaft de mysql");
-            //}
+       
 
             // Calculo de Volumen de tiempo de para
             double Stop_Time = 0;
@@ -377,10 +321,14 @@ namespace Try1
             //1440 Minutes a day 
 
             double Availability = (1440 - Stop_Time)/1440;
-            
+            (double x , double y) = CircunferencePoints(Availability);
             System.Diagnostics.Debug.WriteLine("Availability =" + Availability + "%");
             Availability_TextBlock.Text = Availability.ToString(".##"+"%");
-           
+            var loc = new Windows.Foundation.Point(x, y);
+            testchartOEE.StartPoint = loc;
+            
+
+
             //Availability_Text.Text=DateTime.Today.ToString(); 
 
             // Sort by Total 
@@ -426,21 +374,46 @@ namespace Try1
             {
                 System.Diagnostics.Debug.WriteLine(aPart.Level);
             }
-            Send_Mail(Total_errors3);
+            SendMail(error_Lists);
         }
 
-        public void Send_Mail( int Total_Errors)
+        private static void SendMail(List<Error_list> List)
         {
             // Implementation of Email using system.net.mail for google
+            int Per_Level = List.Count/3;
+            int Total_errors3 = 0;
+
+
+            for ( int i = 0; i< Per_Level; i++)
+            {
+                List[i].Level = 3;
+                Total_errors3++;
+                
+            }
+            double Stop_Time = 0;
+             foreach (Error_list aPart in List)
+            {
+                Stop_Time = Stop_Time + aPart.Total_Stop();
+                aPart.Total = aPart.Total_Stop();
+            }
+
             string Mail_from = "linqtestemail2022@gmail.com";
-            string Mail_password = "SUNRISE2022";
+            string Mail_password = "ekodioyteoizjpju";
             string Mail_to = "linqtestemail2022@gmail.com";
             using (MailMessage mail = new MailMessage())
             {
                 mail.From = new MailAddress(Mail_from);
                 mail.To.Add(Mail_to);
                 mail.Subject = "Test Sending mail";
-                mail.Body = "<h1>  Informe de alarmas </h1> <br> <h2> El total de errores nivel 3 es " + Total_Errors + "<h2>";
+               
+                mail.Body = "<h1 align='center'>  Informe de alarmas </h1>  <br> <h2> El total de errores nivel 3 es: " + Total_errors3 +" <h2> <h2> El tiempo de parada total es: "+Stop_Time+" mins </h2><br>";
+                int counter = 1;
+                   foreach (Error_list aPart in List)
+                   {
+                    mail.Body= mail.Body +"<h4>"+counter +". " + aPart.Message +", Tiempo de parada de maquina es : "+aPart.Total+" mins <h4>";   
+                    counter++;
+                   }
+                mail.Body = mail.Body + "<br> <h2> Saludos,<h2> <h2>Linq Case <h2>";
                 mail.IsBodyHtml = true;
                 using (SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587))
                 {
@@ -452,7 +425,95 @@ namespace Try1
                 }
             }
         }
-       
+
+        private double Quadratic(double a, double b, double c, Boolean pos)
+        {
+            //Function to calculate quadratic equations
+            double x = 0;
+            if (pos)
+                x = ((-b + (double)(Math.Sqrt((b * b) - (4 * a * c)))) / (2 * a));
+            else
+                x = ((-(b) - (double)(Math.Sqrt(Math.Pow(b, 2) - (4 * a * c)))) / (2 * a));
+
+            return x;
+        }
+        private (double, double) CircunferencePoints(double Percentage)
+        {
+
+            
+            double x = 0;
+            double y = 0;
+            double angle = 0;
+            double b = 0;
+            double c = 0;
+            double a = 0;
+            bool pos = false;
+            var adjust = new Size(200, 200);
+            angle = Percentage * 2 * 3.1415;
+            if (Percentage <= 0) { Percentage = 0; }
+            if (Percentage > 1) { Percentage = 0; }
+
+            if (Percentage <= 0.25)
+            {
+                x = (Math.Sin(angle) * 200) + 1250;
+                c = (Math.Pow(x, 2)) - 2500 * x + 1562500 + 62500 - 40000;
+                b = -500;
+                a = 1;
+                pos = false;
+                y = Quadratic(a, b, c, pos);
+                DirectionOEE.IsLargeArc = false;
+
+
+            }
+            else if (Percentage <= 0.50)
+            {
+                x = (Math.Sin(angle) * 200) + 1250;
+                c = (Math.Pow(x, 2)) - 2500 * x + 1562500 + 62500 - 40000;
+                b = -500;
+                a = 1;
+                pos = true;
+                y = Quadratic(a, b, c, pos);
+                DirectionOEE.IsLargeArc = false;
+                if (Percentage > 0.45)
+                {
+                    adjust = new Size(200.5, 200.5);
+                }
+
+                //Direction1.Size = adjust;
+
+            }
+            else if (Percentage <= 0.75)
+            {
+                x = (Math.Sin(angle) * 200) + 1250;
+                c = (Math.Pow(x, 2)) - 2500 * x + 1562500 + 62500 - 40000;
+                b = -500;
+                a = 1;
+                pos = true;
+                y = Quadratic(a, b, c, pos);
+                DirectionOEE.IsLargeArc = true;
+                adjust = new Size(148, 148);
+                if (Percentage < 0.55)
+                {
+                    adjust = new Size(200.5, 200.5);
+                }
+                //Direction1.Size = adjust;
+
+            }
+            else
+            {
+                x = (Math.Sin(angle) * 200) + 1250;
+                c = (Math.Pow(x, 2)) - 2500 * x + 1562500 + 62500 - 40000;
+                b = -500;
+                a = 1;
+                pos = false;
+                y = Quadratic(a, b, c, pos);
+                DirectionOEE.IsLargeArc = true;
+
+            }
+
+            return (x, y);
+        }
+
     }
 }
 
